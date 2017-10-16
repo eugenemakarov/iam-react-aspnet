@@ -1,6 +1,6 @@
 webpackJsonp([14],{
 
-/***/ 1101:
+/***/ 1104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,7 +19,7 @@ var REQUEST_USER_FAILED = 'app/HeaderContainer/REQUEST_USER_FAILED';
 
 /***/ }),
 
-/***/ 1269:
+/***/ 1251:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27,7 +27,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["requestUser"] = requestUser;
 /* harmony export (immutable) */ __webpack_exports__["requestUserSucceeded"] = requestUserSucceeded;
 /* harmony export (immutable) */ __webpack_exports__["requestUserFailed"] = requestUserFailed;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1104);
 /*
  *
  * HeaderContainer actions
@@ -58,16 +58,16 @@ function requestUserFailed(message) {
 
 /***/ }),
 
-/***/ 1361:
+/***/ 1364:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export fetchUserSaga */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_saga__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redux_saga_effects__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(784);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(786);
 var _marked = /*#__PURE__*/regeneratorRuntime.mark(fetchUser),
     _marked2 = /*#__PURE__*/regeneratorRuntime.mark(fetchUserSaga);
 
@@ -107,25 +107,31 @@ function fetchUser() {
           return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_redux_saga_effects__["b" /* put */])(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__actions__["requestUserSucceeded"])(user));
 
         case 7:
-          _context.next = 9;
+          _context.next = 10;
           break;
 
         case 9:
-          _context.next = 15;
+          window.location.href = "/#/signin";
+
+        case 10:
+          _context.next = 17;
           break;
 
-        case 11:
-          _context.prev = 11;
+        case 12:
+          _context.prev = 12;
           _context.t0 = _context['catch'](0);
-          _context.next = 15;
+          _context.next = 16;
           return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_redux_saga_effects__["b" /* put */])(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__actions__["requestUserFailed"])(_context.t0.message));
 
-        case 15:
+        case 16:
+          window.location.href = "/#/signin";
+
+        case 17:
         case 'end':
           return _context.stop();
       }
     }
-  }, _marked, this, [[0, 11]]);
+  }, _marked, this, [[0, 12]]);
 }
 
 // Individual exports for testing
@@ -153,7 +159,7 @@ function fetchUserSaga() {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fetchUserSaga__ = __webpack_require__(1361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fetchUserSaga__ = __webpack_require__(1364);
 
 
 // All sagas to be loaded
@@ -161,12 +167,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 784:
+/***/ 786:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiSettings; });
-var ApiSettings = { "searchPrefix": "https://iamapi.tryemanage.com/api/", "listPrefix": "https://iamapi.tryemanage.com/api/lists/", "filesPrefix": "https://iamapi.tryemanage.com/api/files/", "suffix": "iam" };
+var ApiSettings = { "searchPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/", "listPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/lists/", "filesPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/files/", "suffix": "iam-admin-test" };
 
 /***/ })
 

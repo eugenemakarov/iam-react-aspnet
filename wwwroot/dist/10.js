@@ -1,6 +1,6 @@
 webpackJsonp([10],{
 
-/***/ 1034:
+/***/ 1031:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28,7 +28,7 @@ var REQUEST_DELETE_APPLICATION_FAILED = 'app/ApplicationsListContainer/REQUEST_D
 
 /***/ }),
 
-/***/ 1231:
+/***/ 1234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40,7 +40,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["deleteApplication"] = deleteApplication;
 /* harmony export (immutable) */ __webpack_exports__["deleteApplicationSucceeded"] = deleteApplicationSucceeded;
 /* harmony export (immutable) */ __webpack_exports__["deleteApplicationFailed"] = deleteApplicationFailed;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1031);
 /*
  *
  * ApplicationsListContainer actions
@@ -101,17 +101,17 @@ function deleteApplicationFailed(message) {
 
 /***/ }),
 
-/***/ 1355:
+/***/ 1358:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export deleteSaga */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux_saga_effects__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_saga__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__(1034);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(784);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr__ = __webpack_require__(806);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__(1031);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(786);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr__ = __webpack_require__(809);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_toastr__);
 var _marked = /*#__PURE__*/regeneratorRuntime.mark(deleteApplication),
     _marked2 = /*#__PURE__*/regeneratorRuntime.mark(deleteSaga);
@@ -187,17 +187,17 @@ function deleteSaga() {
 
 /***/ }),
 
-/***/ 1356:
+/***/ 1359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export fetchApplicationsSaga */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1031);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_saga_effects__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(1231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_config_environment__ = __webpack_require__(784);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(1234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_config_environment__ = __webpack_require__(786);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_constants__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr__ = __webpack_require__(806);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr__ = __webpack_require__(809);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_toastr___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_toastr__);
 var _marked = /*#__PURE__*/regeneratorRuntime.mark(fetchApplications),
     _marked2 = /*#__PURE__*/regeneratorRuntime.mark(fetchApplicationsSaga);
@@ -282,8 +282,8 @@ function fetchApplicationsSaga() {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deleteSaga__ = __webpack_require__(1355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fetchApplicationsSaga__ = __webpack_require__(1356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__deleteSaga__ = __webpack_require__(1358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fetchApplicationsSaga__ = __webpack_require__(1359);
 
 
 
@@ -291,16 +291,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 784:
+/***/ 786:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiSettings; });
-var ApiSettings = { "searchPrefix": "https://iamapi.tryemanage.com/api/", "listPrefix": "https://iamapi.tryemanage.com/api/lists/", "filesPrefix": "https://iamapi.tryemanage.com/api/files/", "suffix": "iam" };
+var ApiSettings = { "searchPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/", "listPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/lists/", "filesPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/files/", "suffix": "iam-admin-test" };
 
 /***/ }),
 
-/***/ 806:
+/***/ 809:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -317,7 +317,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
  */
 /* global define */
 ; (function (define) {
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(868)], __WEBPACK_AMD_DEFINE_RESULT__ = function ($) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(865)], __WEBPACK_AMD_DEFINE_RESULT__ = function ($) {
         return (function () {
             var $container;
             var listener;
@@ -732,12 +732,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
         })();
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-}(__webpack_require__(807)));
+}(__webpack_require__(810)));
 
 
 /***/ }),
 
-/***/ 807:
+/***/ 810:
 /***/ (function(module, exports) {
 
 module.exports = function() {
@@ -747,7 +747,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 868:
+/***/ 865:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(6))(6);

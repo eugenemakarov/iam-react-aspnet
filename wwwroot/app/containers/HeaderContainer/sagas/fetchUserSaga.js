@@ -17,11 +17,11 @@ function* fetchUser() {
     if (user) {
       yield put(requestUserSucceeded(user));
     } else {
-      // window.location.href = "#/signin"; 
+      window.location.href = "/#/signin"; 
     }
   } catch (e) {
     yield put(requestUserFailed(e.message));
-    // window.location.href = "#/signin"; 
+    window.location.href = "/#/signin"; 
   }
 }
 

@@ -2,6 +2,9 @@
   "name": "ReactApplication2",
   "private": true,
   "version": "0.0.0",
+  "scripts": {
+    "generate": "plop --plopfile internals/generators/index.js"    
+  },
   "dependencies": {
     "aspnet-prerendering": "^3.0.1",
     "aspnet-webpack": "^2.0.1",
@@ -88,7 +91,8 @@
     "sanitize.css": "4.1.0",
     "warning": "3.0.0",
     "image-webpack-loader": "2.0.0",
-    "offline-plugin": "3.4.2"
+    "offline-plugin": "3.4.2",
+    "plop": "1.5.0"    
   },
   "babel": {
     "presets": [

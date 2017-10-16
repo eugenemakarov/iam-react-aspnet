@@ -1,6 +1,23 @@
 webpackJsonp([8],{
 
-/***/ 1102:
+/***/ 1083:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".logoImage__wwwroot-app-components-LogoImage-styles__1nzTe { /* stylelint-disable */\r\n    \r\n}\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/LogoImage/styles.css"],"names":[],"mappings":"AAAA,6DAAa,uBAAuB;;CAEnC","file":"styles.css","sourcesContent":[".logoImage { /* stylelint-disable */\r\n    \r\n}\r\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"logoImage": "logoImage__wwwroot-app-components-LogoImage-styles__1nzTe"
+};
+
+/***/ }),
+
+/***/ 1105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31,38 +48,13 @@ var USER_IMAGE_SUCCESS = 'app/LoginContainer/USER_IMAGE_SUCCESS';
 
 /***/ }),
 
-/***/ 1242:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, "body{\r\n    background-color: #EFEFEF;\r\n}\r\n\r\n.Login__wwwroot-app-components-Login-styles__1FUnJ { /* stylelint-disable */\r\n    \r\n}\r\n\r\n.login_page_h4__wwwroot-app-components-Login-styles__2on0Y{\r\n    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;\r\n    font-weight: 500;\r\n    line-height: 1.1;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.login_input__wwwroot-app-components-Login-styles__1rGjW{\r\n    direction: ltr;\r\n    height: 44px;\r\n    font-size: 16px;\r\n}\r\n\r\n.error_text__wwwroot-app-components-Login-styles__2b3A7{\r\n    color: #b94a48;\r\n    font-weight: 500;\r\n    margin-top: 10px;\r\n}\r\n\r\n.check_box__wwwroot-app-components-Login-styles__bpnbF{\r\n    float: left;\r\n    margin-bottom: 15px !important;\r\n}\r\n\r\n.cardContainer__wwwroot-app-components-Login-styles__2Vx5E {\r\n    max-width: 350px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n}\r\n\r\n.card__wwwroot-app-components-Login-styles__2LBKv {\r\n    background-color: #fafafa;\r\n    padding: 20px 25px 30px;\r\n    margin: 0 auto 25px;\r\n    margin-top: 30px;\r\n    border-radius: 2px;\r\n    box-shadow: 0 3px 2px rgba(0,0,0,.3);\r\n    text-align: center;\r\n}\r\n\r\n.profileImage__wwwroot-app-components-Login-styles__-D3AD{\r\n    width: 96px;\r\n    height: 96px;\r\n    margin: 20px auto 10px;\r\n    display: block;\r\n    border-radius: 50%;\r\n}\r\n\r\n.btn_signin__wwwroot-app-components-Login-styles__DcKrP{\r\n    font-weight: 800;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/Login/styles.css"],"names":[],"mappings":"AAAA;IACI,0BAA0B;CAC7B;;AAED,qDAAS,uBAAuB;;CAE/B;;AAED;IACI,iEAAiE;IACjE,iBAAiB;IACjB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,eAAe;IACf,aAAa;IACb,gBAAgB;CACnB;;AAED;IACI,eAAe;IACf,iBAAiB;IACjB,iBAAiB;CACpB;;AAED;IACI,YAAY;IACZ,+BAA+B;CAClC;;AAED;IACI,iBAAiB;IACjB,eAAe;IACf,mBAAmB;CACtB;;AAED;IACI,0BAA0B;IAC1B,wBAAwB;IACxB,oBAAoB;IACpB,iBAAiB;IACjB,mBAAmB;IACnB,qCAAqC;IACrC,mBAAmB;CACtB;;AAED;IACI,YAAY;IACZ,aAAa;IACb,uBAAuB;IACvB,eAAe;IACf,mBAAmB;CACtB;;AAED;IACI,iBAAiB;CACpB","file":"styles.css","sourcesContent":["body{\r\n    background-color: #EFEFEF;\r\n}\r\n\r\n.Login { /* stylelint-disable */\r\n    \r\n}\r\n\r\n.login_page_h4{\r\n    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;\r\n    font-weight: 500;\r\n    line-height: 1.1;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.login_input{\r\n    direction: ltr;\r\n    height: 44px;\r\n    font-size: 16px;\r\n}\r\n\r\n.error_text{\r\n    color: #b94a48;\r\n    font-weight: 500;\r\n    margin-top: 10px;\r\n}\r\n\r\n.check_box{\r\n    float: left;\r\n    margin-bottom: 15px !important;\r\n}\r\n\r\n.cardContainer {\r\n    max-width: 350px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n}\r\n\r\n.card {\r\n    background-color: #fafafa;\r\n    padding: 20px 25px 30px;\r\n    margin: 0 auto 25px;\r\n    margin-top: 30px;\r\n    border-radius: 2px;\r\n    box-shadow: 0 3px 2px rgba(0,0,0,.3);\r\n    text-align: center;\r\n}\r\n\r\n.profileImage{\r\n    width: 96px;\r\n    height: 96px;\r\n    margin: 20px auto 10px;\r\n    display: block;\r\n    border-radius: 50%;\r\n}\r\n\r\n.btn_signin{\r\n    font-weight: 800;\r\n}"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"Login": "Login__wwwroot-app-components-Login-styles__1FUnJ",
-	"login_page_h4": "login_page_h4__wwwroot-app-components-Login-styles__2on0Y",
-	"login_input": "login_input__wwwroot-app-components-Login-styles__1rGjW",
-	"error_text": "error_text__wwwroot-app-components-Login-styles__2b3A7",
-	"check_box": "check_box__wwwroot-app-components-Login-styles__bpnbF",
-	"cardContainer": "cardContainer__wwwroot-app-components-Login-styles__2Vx5E",
-	"card": "card__wwwroot-app-components-Login-styles__2LBKv",
-	"profileImage": "profileImage__wwwroot-app-components-Login-styles__-D3AD",
-	"btn_signin": "btn_signin__wwwroot-app-components-Login-styles__DcKrP"
-};
-
-/***/ }),
-
-/***/ 1267:
+/***/ 1249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1291);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_css__);
 /**
 *
@@ -82,7 +74,7 @@ function LogoImage(elem) {
 
 /***/ }),
 
-/***/ 1270:
+/***/ 1252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -95,7 +87,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["loginFailure"] = loginFailure;
 /* harmony export (immutable) */ __webpack_exports__["requestUserImage"] = requestUserImage;
 /* harmony export (immutable) */ __webpack_exports__["userImageSuccess"] = userImageSuccess;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1105);
 /*
  *
  * LoginContainer actions
@@ -162,13 +154,38 @@ function userImageSuccess(imageUrl) {
 
 /***/ }),
 
-/***/ 1288:
+/***/ 1263:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, "body{\r\n    background-color: #EFEFEF;\r\n}\r\n\r\n.Login__wwwroot-app-components-Login-styles__1FUnJ { /* stylelint-disable */\r\n    \r\n}\r\n\r\n.login_page_h4__wwwroot-app-components-Login-styles__2on0Y{\r\n    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;\r\n    font-weight: 500;\r\n    line-height: 1.1;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.login_input__wwwroot-app-components-Login-styles__1rGjW{\r\n    direction: ltr;\r\n    height: 44px;\r\n    font-size: 16px;\r\n}\r\n\r\n.error_text__wwwroot-app-components-Login-styles__2b3A7{\r\n    color: #b94a48;\r\n    font-weight: 500;\r\n    margin-top: 10px;\r\n}\r\n\r\n.check_box__wwwroot-app-components-Login-styles__bpnbF{\r\n    float: left;\r\n    margin-bottom: 15px !important;\r\n}\r\n\r\n.cardContainer__wwwroot-app-components-Login-styles__2Vx5E {\r\n    max-width: 350px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n}\r\n\r\n.card__wwwroot-app-components-Login-styles__2LBKv {\r\n    background-color: #fafafa;\r\n    padding: 20px 25px 30px;\r\n    margin: 0 auto 25px;\r\n    margin-top: 30px;\r\n    border-radius: 2px;\r\n    box-shadow: 0 3px 2px rgba(0,0,0,.3);\r\n    text-align: center;\r\n}\r\n\r\n.profileImage__wwwroot-app-components-Login-styles__-D3AD{\r\n    width: 96px;\r\n    height: 96px;\r\n    margin: 20px auto 10px;\r\n    display: block;\r\n    border-radius: 50%;\r\n}\r\n\r\n.btn_signin__wwwroot-app-components-Login-styles__DcKrP{\r\n    font-weight: 800;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/Login/styles.css"],"names":[],"mappings":"AAAA;IACI,0BAA0B;CAC7B;;AAED,qDAAS,uBAAuB;;CAE/B;;AAED;IACI,iEAAiE;IACjE,iBAAiB;IACjB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,eAAe;IACf,aAAa;IACb,gBAAgB;CACnB;;AAED;IACI,eAAe;IACf,iBAAiB;IACjB,iBAAiB;CACpB;;AAED;IACI,YAAY;IACZ,+BAA+B;CAClC;;AAED;IACI,iBAAiB;IACjB,eAAe;IACf,mBAAmB;CACtB;;AAED;IACI,0BAA0B;IAC1B,wBAAwB;IACxB,oBAAoB;IACpB,iBAAiB;IACjB,mBAAmB;IACnB,qCAAqC;IACrC,mBAAmB;CACtB;;AAED;IACI,YAAY;IACZ,aAAa;IACb,uBAAuB;IACvB,eAAe;IACf,mBAAmB;CACtB;;AAED;IACI,iBAAiB;CACpB","file":"styles.css","sourcesContent":["body{\r\n    background-color: #EFEFEF;\r\n}\r\n\r\n.Login { /* stylelint-disable */\r\n    \r\n}\r\n\r\n.login_page_h4{\r\n    font-family: open sans,Helvetica Neue,Helvetica,Arial,sans-serif;\r\n    font-weight: 500;\r\n    line-height: 1.1;\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.login_input{\r\n    direction: ltr;\r\n    height: 44px;\r\n    font-size: 16px;\r\n}\r\n\r\n.error_text{\r\n    color: #b94a48;\r\n    font-weight: 500;\r\n    margin-top: 10px;\r\n}\r\n\r\n.check_box{\r\n    float: left;\r\n    margin-bottom: 15px !important;\r\n}\r\n\r\n.cardContainer {\r\n    max-width: 350px;\r\n    margin: 0 auto;\r\n    position: relative;\r\n}\r\n\r\n.card {\r\n    background-color: #fafafa;\r\n    padding: 20px 25px 30px;\r\n    margin: 0 auto 25px;\r\n    margin-top: 30px;\r\n    border-radius: 2px;\r\n    box-shadow: 0 3px 2px rgba(0,0,0,.3);\r\n    text-align: center;\r\n}\r\n\r\n.profileImage{\r\n    width: 96px;\r\n    height: 96px;\r\n    margin: 20px auto 10px;\r\n    display: block;\r\n    border-radius: 50%;\r\n}\r\n\r\n.btn_signin{\r\n    font-weight: 800;\r\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"Login": "Login__wwwroot-app-components-Login-styles__1FUnJ",
+	"login_page_h4": "login_page_h4__wwwroot-app-components-Login-styles__2on0Y",
+	"login_input": "login_input__wwwroot-app-components-Login-styles__1rGjW",
+	"error_text": "error_text__wwwroot-app-components-Login-styles__2b3A7",
+	"check_box": "check_box__wwwroot-app-components-Login-styles__bpnbF",
+	"cardContainer": "cardContainer__wwwroot-app-components-Login-styles__2Vx5E",
+	"card": "card__wwwroot-app-components-Login-styles__2LBKv",
+	"profileImage": "profileImage__wwwroot-app-components-Login-styles__-D3AD",
+	"btn_signin": "btn_signin__wwwroot-app-components-Login-styles__DcKrP"
+};
+
+/***/ }),
+
+/***/ 1291:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(865);
+var content = __webpack_require__(1083);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -182,8 +199,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(865865, function() {
-			var newContent = __webpack_require__(865);
+		module.hot.accept(1083, function() {
+			var newContent = __webpack_require__(1083);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -194,17 +211,17 @@ if(true) {
 
 /***/ }),
 
-/***/ 1339:
+/***/ 1342:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_responsive__ = __webpack_require__(1507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_responsive__ = __webpack_require__(1513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_responsive___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_responsive__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css__ = __webpack_require__(1531);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css__ = __webpack_require__(1537);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LogoImage__ = __webpack_require__(1267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LogoImage__ = __webpack_require__(1249);
 /**
 *
 * Login
@@ -309,7 +326,7 @@ function Login(_ref) {
 
 /***/ }),
 
-/***/ 1364:
+/***/ 1367:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -350,7 +367,7 @@ var selectLoginContainer = function selectLoginContainer() {
 
 /***/ }),
 
-/***/ 1507:
+/***/ 1513:
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -2083,13 +2100,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
-/***/ 1531:
+/***/ 1537:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1242);
+var content = __webpack_require__(1263);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -2103,8 +2120,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(12421242, function() {
-			var newContent = __webpack_require__(1242);
+		module.hot.accept(1263, function() {
+			var newContent = __webpack_require__(1263);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -2131,12 +2148,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux__ = __webpack_require__(171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectors__ = __webpack_require__(1364);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__actions__ = __webpack_require__(1270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectors__ = __webpack_require__(1367);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__actions__ = __webpack_require__(1252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_redux__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_router_redux__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_router_redux__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_router_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_router_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_Login__ = __webpack_require__(1339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_Login__ = __webpack_require__(1342);
 
 
 
@@ -2260,23 +2277,6 @@ function mapDispatchToProps(dispatch) {
 
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_react_redux__["connect"])(mapStateToProps, mapDispatchToProps)(LoginContainer));
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(170)(module)))
-
-/***/ }),
-
-/***/ 865:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".logoImage__wwwroot-app-components-LogoImage-styles__1nzTe { /* stylelint-disable */\r\n    \r\n}\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/LogoImage/styles.css"],"names":[],"mappings":"AAAA,6DAAa,uBAAuB;;CAEnC","file":"styles.css","sourcesContent":[".logoImage { /* stylelint-disable */\r\n    \r\n}\r\n"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"logoImage": "logoImage__wwwroot-app-components-LogoImage-styles__1nzTe"
-};
 
 /***/ })
 

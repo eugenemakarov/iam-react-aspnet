@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 1392:
+/***/ 1398:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3803,22 +3803,22 @@ module.exports = Intl;
 
 /***/ }),
 
-/***/ 1551:
+/***/ 1557:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 734:
+/***/ 737:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {// Expose `IntlPolyfill` as global to add locale data into runtime later on.
-global.IntlPolyfill = __webpack_require__(1392);
+global.IntlPolyfill = __webpack_require__(1398);
 
 // Require all locale data for `Intl`. This module will be
 // ignored when bundling for the browser with Browserify/Webpack.
-__webpack_require__(1551);
+__webpack_require__(1557);
 
 // hack to export the polyfill as global Intl if needed
 if (!global.Intl) {

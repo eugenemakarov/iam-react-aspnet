@@ -40,7 +40,29 @@ export default function createRoutes(store) {
 
         importModules.catch(errorLoading);
       },
-    }, 
+    },
+    {
+      onEnter: TokenInterceptor,
+      path: '/profile',
+      name: 'profileContainer',
+      getComponent(nextState, cb) {
+        const importModules = Promise.all([
+          System.import('containers/profileContainer/reducer'),
+          System.import('containers/profileContainer/sagas/index'),
+          System.import('containers/profileContainer'),
+        ]);
+
+        const renderRoute = loadModule(cb);
+
+        importModules.then(([reducer, sagas, component]) => {
+          injectReducer('profile', reducer.default);
+          injectSagas('profileContainer', sagas.default);
+          renderRoute(component);
+        });
+
+        importModules.catch(errorLoading);
+      },
+    },     
     {
       onEnter: TokenInterceptor,
       path: '/',

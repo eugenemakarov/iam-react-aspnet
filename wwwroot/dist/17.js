@@ -1,112 +1,141 @@
 webpackJsonp([17],{
 
-/***/ 729:
+/***/ 1384:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export selectProfileContainerDomain */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_reselect__ = __webpack_require__(172);
+
+
+/**
+ * Direct selector to the profileContainer state domain
+ */
+var selectProfileContainerDomain = function selectProfileContainerDomain() {
+  return function (state) {
+    return state.get('profile');
+  };
+};
+
+/**
+ * Other specific selectors
+ */
+
+/**
+ * Default selector used by ProfileContainer
+ */
+
+var selectProfileContainer = function selectProfileContainer() {
+  return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_reselect__["a" /* createSelector */])(selectProfileContainerDomain(), function (substate) {
+    return substate.toJS();
+  });
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (selectProfileContainer);
+
+
+/***/ }),
+
+/***/ 734:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_immutable__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_immutable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_immutable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_initialState__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__(857);
-/*
- *
- * UserDetailsContainer reducer
- *
- */
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfileContainer", function() { return ProfileContainer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_c_VSO_ReactDotnet_node_modules_redbox_react_lib_index_js__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_c_VSO_ReactDotnet_node_modules_redbox_react_lib_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_c_VSO_ReactDotnet_node_modules_redbox_react_lib_index_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_c_VSO_ReactDotnet_node_modules_react_transform_catch_errors_lib_index_js__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_c_VSO_ReactDotnet_node_modules_react_transform_catch_errors_lib_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_c_VSO_ReactDotnet_node_modules_react_transform_catch_errors_lib_index_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_redux__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectors__ = __webpack_require__(1384);
 
 
 
 
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-function userDetailsContainerReducer() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_immutable__["fromJS"])(__WEBPACK_IMPORTED_MODULE_1__shared_initialState__["a" /* default */].userDetails);
-  var action = arguments[1];
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  switch (action.type) {
-    case __WEBPACK_IMPORTED_MODULE_2__constants__["b" /* REQUEST_USER_SUCCEEDED */]:
-      return state.set('userDetails', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_immutable__["fromJS"])(action.details));
-    case __WEBPACK_IMPORTED_MODULE_2__constants__["f" /* REQUEST_APPLICATION_SUCCEEDED */]:
-      return state.set('applicationDetails', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_immutable__["fromJS"])(action.details)).updateIn(['userDetails', 'applications'], function (arr) {
-        return arr.push(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_immutable__["fromJS"])({
-          applicationId: action.details.id,
-          clientId: action.details.clientId,
-          displayName: action.details.displayName,
-          applicationIsActive: action.details.isActive,
-          userApplicationIsActive: true //default once added
-        }));
-      });
-    case __WEBPACK_IMPORTED_MODULE_2__constants__["i" /* REMOVE_APPLICATION */]:
-      return state.updateIn(['userDetails', 'applications'], function (arr) {
-        return arr.filter(function (el) {
-          return el.get('applicationId') !== action.id;
-        });
-      });
-    case __WEBPACK_IMPORTED_MODULE_2__constants__["n" /* REQUEST_UPLOAD_PICTURE_SUCCEEDED */]:
-      return state.setIn(['userDetails', 'profilePictureUrl'], action.image);
-    case __WEBPACK_IMPORTED_MODULE_2__constants__["d" /* RESET_USER */]:
-      return state.set('userDetails', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_immutable__["fromJS"])({ 'applications': [] }));
-    default:
-      return state;
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _components = {
+  ProfileContainer: {
+    displayName: 'ProfileContainer'
   }
+};
+
+var _cVSOReactDotnetNode_modulesReactTransformHmrLibIndexJs2 = __WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js___default()({
+  filename: 'c:/VSO/ReactDotnet/wwwroot/app/containers/profileContainer/index.js',
+  components: _components,
+  locals: [module],
+  imports: [__WEBPACK_IMPORTED_MODULE_2_react___default.a]
+});
+
+var _cVSOReactDotnetNode_modulesReactTransformCatchErrorsLibIndexJs2 = __WEBPACK_IMPORTED_MODULE_1_c_VSO_ReactDotnet_node_modules_react_transform_catch_errors_lib_index_js___default()({
+  filename: 'c:/VSO/ReactDotnet/wwwroot/app/containers/profileContainer/index.js',
+  components: _components,
+  locals: [],
+  imports: [__WEBPACK_IMPORTED_MODULE_2_react___default.a, __WEBPACK_IMPORTED_MODULE_0_c_VSO_ReactDotnet_node_modules_redbox_react_lib_index_js___default.a]
+});
+
+function _wrapComponent(id) {
+  return function (Component) {
+    return _cVSOReactDotnetNode_modulesReactTransformHmrLibIndexJs2(_cVSOReactDotnetNode_modulesReactTransformCatchErrorsLibIndexJs2(Component, id), id);
+  };
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (userDetailsContainerReducer);
-
-/***/ }),
-
-/***/ 857:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return REQUEST_USER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return REQUEST_USER_SUCCEEDED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return REQUEST_USER_FAILED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return RESET_USER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return REQUEST_APPLICATION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return REQUEST_APPLICATION_SUCCEEDED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return REQUEST_APPLICATION_FAILED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return ADD_APPLICATION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return REMOVE_APPLICATION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return REQUEST_CHANGE_PASSWORD; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return REQUEST_CHANGE_PASSWORD_SUCCEEDED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return REQUEST_CHANGE_PASSWORD_FAILED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return REQUEST_UPLOAD_PICTURE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return REQUEST_UPLOAD_PICTURE_SUCCEEDED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return REQUEST_UPLOAD_PICTURE_FAILED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return REQUEST_SAVE_USER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return REQUEST_SAVE_USER_SUCCEEDED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return REQUEST_SAVE_USER_FAILED; });
 /*
  *
- * UserDetailsContainer constants
+ * ProfileContainer
  *
  */
 
-var REQUEST_USER = 'app/UserDetailsContainer/REQUEST_USER';
-var REQUEST_USER_SUCCEEDED = 'app/UserDetailsContainer/REQUEST_USER_SUCCEEDED';
-var REQUEST_USER_FAILED = 'app/UserDetailsContainer/REQUEST_USER_FAILED';
-var RESET_USER = 'app/UserDetailsContainer/RESET_USER';
 
-var REQUEST_APPLICATION = 'app/UserDetailsContainer/REQUEST_APPLICATION';
-var REQUEST_APPLICATION_SUCCEEDED = 'app/UserDetailsContainer/REQUEST_APPLICATION_SUCCEEDED';
-var REQUEST_APPLICATION_FAILED = 'app/UserDetailsContainer/REQUEST_APPLICATION_FAILED';
 
-var ADD_APPLICATION = 'app/UserDetailsContainer/ADD_APPLICATION';
-var REMOVE_APPLICATION = 'app/UserDetailsContainer/REMOVE_APPLICATION';
 
-var REQUEST_CHANGE_PASSWORD = 'app/UserDetailsContainer/REQUEST_CHANGE_PASSWORD';
-var REQUEST_CHANGE_PASSWORD_SUCCEEDED = 'app/UserDetailsContainer/REQUEST_CHANGE_PASSWORD_SUCCEEDED';
-var REQUEST_CHANGE_PASSWORD_FAILED = 'app/UserDetailsContainer/REQUEST_CHANGE_PASSWORD_FAILED';
 
-var REQUEST_UPLOAD_PICTURE = 'app/UserDetailsContainer/REQUEST_UPLOAD_PICTURE';
-var REQUEST_UPLOAD_PICTURE_SUCCEEDED = 'app/UserDetailsContainer/REQUEST_UPLOAD_PICTURE_SUCCEEDED';
-var REQUEST_UPLOAD_PICTURE_FAILED = 'app/UserDetailsContainer/REQUEST_UPLOAD_PICTURE_FAILED';
+var ProfileContainer = _wrapComponent('ProfileContainer')(function (_React$Component) {
+  _inherits(ProfileContainer, _React$Component);
 
-var REQUEST_SAVE_USER = 'app/UserDetailsContainer/REQUEST_SAVE_USER';
-var REQUEST_SAVE_USER_SUCCEEDED = 'app/UserDetailsContainer/REQUEST_SAVE_USER_SUCCEEDED';
-var REQUEST_SAVE_USER_FAILED = 'app/UserDetailsContainer/REQUEST_SAVE_USER_FAILED';
+  function ProfileContainer() {
+    _classCallCheck(this, ProfileContainer);
+
+    return _possibleConstructorReturn(this, (ProfileContainer.__proto__ || Object.getPrototypeOf(ProfileContainer)).apply(this, arguments));
+  }
+
+  _createClass(ProfileContainer, [{
+    key: 'render',
+    // eslint-disable-line react/prefer-stateless-function
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+        'div',
+        null,
+        'this is profile page'
+      );
+    }
+  }]);
+
+  return ProfileContainer;
+}(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Component));
+
+var mapStateToProps = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__selectors__["a" /* default */])();
+
+function mapDispatchToProps(dispatch) {
+  return {
+    dispatch: dispatch
+  };
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_react_redux__["connect"])(mapStateToProps, mapDispatchToProps)(ProfileContainer));
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(170)(module)))
 
 /***/ })
 

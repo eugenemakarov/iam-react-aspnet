@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 1033:
+/***/ 1030:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26,13 +26,66 @@ var REQUEST_SAVE_APPLICATION_FAILED = 'app/ApplicationDetailsContainer/REQUEST_S
 
 /***/ }),
 
-/***/ 1098:
+/***/ 1079:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C { /* stylelint-disable */\r\n\r\n}\r\n\r\n.createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C hr{\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/CreatedUpdatedFooter/styles.css"],"names":[],"mappings":"AAAA,mFAAwB,uBAAuB;;CAE9C;;AAED;IACI,sBAAsB;IACtB,iBAAiB;IACjB,oBAAoB;CACvB","file":"styles.css","sourcesContent":[".createdUpdatedFooter { /* stylelint-disable */\r\n\r\n}\r\n\r\n.createdUpdatedFooter hr{\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"createdUpdatedFooter": "createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C"
+};
+
+/***/ }),
+
+/***/ 1080:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe { /* stylelint-disable */\r\n\r\n}\r\n\r\n.detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe section {\r\n    background-color: #f3f3f4;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-bottom: 20px;\r\n    margin-bottom: 20px;\r\n    border: 1px solid #e5e5e5;\r\n    position: relative;\r\n}\r\n\r\n.detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe:last-child {\r\n    margin-bottom: 90px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP hr {\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP span {\r\n    line-height: 25px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP b {\r\n    font-weight: 600 !important;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/DetailsSection/styles.css"],"names":[],"mappings":"AAAA,uEAAkB,uBAAuB;;CAExC;;AAED;IACI,0BAA0B;IAC1B,mBAAmB;IACnB,oBAAoB;IACpB,qBAAqB;IACrB,oBAAoB;IACpB,0BAA0B;IAC1B,mBAAmB;CACtB;;AAED;IACI,oBAAoB;CACvB;;AAED;IACI,sBAAsB;IACtB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,kBAAkB;CACrB;;AAED;IACI,4BAA4B;CAC/B","file":"styles.css","sourcesContent":[".detailsSection { /* stylelint-disable */\r\n\r\n}\r\n\r\n.detailsSection section {\r\n    background-color: #f3f3f4;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-bottom: 20px;\r\n    margin-bottom: 20px;\r\n    border: 1px solid #e5e5e5;\r\n    position: relative;\r\n}\r\n\r\n.detailsSection:last-child {\r\n    margin-bottom: 90px;\r\n}\r\n\r\n.footer hr {\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.footer span {\r\n    line-height: 25px;\r\n}\r\n\r\n.footer b {\r\n    font-weight: 600 !important;\r\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"detailsSection": "detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe",
+	"footer": "footer__wwwroot-app-components-DetailsSection-styles__1pKDP"
+};
+
+/***/ }),
+
+/***/ 1084:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".yesNo__wwwroot-app-components-YesNo-styles__3SSPd div:first-child{ /* stylelint-disable */\r\n    position: relative;\r\n    width: 60px;\r\n    float: left;\r\n    margin-right: 15px;\r\n    -webkit-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd input {\r\n    margin: 4px 0 0;\r\n    line-height: normal;\r\n    padding: 0;\r\n    display: none;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd label {\r\n    display: block;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    border: 1px solid #d5d5d5;\r\n    border-radius: 10px;\r\n    font-weight: 400;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child {\r\n    display: block;\r\n    width: 200%;\r\n    margin-left: -100%;\r\n    transition: margin .3s ease-in 0s;\r\n}\r\n\r\n.checked__wwwroot-app-components-YesNo-styles__kTGSS span:first-child {\r\n    margin-left:0;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::before, .yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::after {\r\n    content: \"Yes\";\r\n    padding-left: 11px;\r\n    background-color: #00b1da;\r\n    color: #fff;\r\n    display: block;\r\n    float: left;\r\n    width: 50%;\r\n    height: 26px;\r\n    line-height: 25px;\r\n    font-size: 14px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::after {\r\n    content: \"No\";\r\n    padding-right: 12px;\r\n    background-color: #f9f9f9;\r\n    color: #747474;\r\n    text-align: right;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:last-child {\r\n    right: 0;\r\n    display: block;\r\n    width: 11px;\r\n    height: 16px;\r\n    margin: 6px;\r\n    background: #fff;\r\n    border: 1px solid #999;\r\n    border-radius: 20px;\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    right: 36px;\r\n    transition: all .3s ease-in 0s;\r\n}\r\n\r\n.checked__wwwroot-app-components-YesNo-styles__kTGSS span:last-child {\r\n    right: 0;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd div:last-child {\r\n    padding-top: 4px;\r\n}\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/YesNo/styles.css"],"names":[],"mappings":"AAAA,oEAAwB,uBAAuB;IAC3C,mBAAmB;IACnB,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,0BAA0B;IAC1B,uBAAuB;IACvB,sBAAsB;CACzB;;AAED;IACI,gBAAgB;IAChB,oBAAoB;IACpB,WAAW;IACX,cAAc;CACjB;;AAED;IACI,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,0BAA0B;IAC1B,oBAAoB;IACpB,iBAAiB;CACpB;;AAED;IACI,eAAe;IACf,YAAY;IACZ,mBAAmB;IACnB,kCAAkC;CACrC;;AAED;IACI,cAAc;CACjB;;AAED;IACI,eAAe;IACf,mBAAmB;IACnB,0BAA0B;IAC1B,YAAY;IACZ,eAAe;IACf,YAAY;IACZ,WAAW;IACX,aAAa;IACb,kBAAkB;IAClB,gBAAgB;IAChB,uBAAuB;CAC1B;;AAED;IACI,cAAc;IACd,oBAAoB;IACpB,0BAA0B;IAC1B,eAAe;IACf,kBAAkB;CACrB;;AAED;IACI,SAAS;IACT,eAAe;IACf,YAAY;IACZ,aAAa;IACb,YAAY;IACZ,iBAAiB;IACjB,uBAAuB;IACvB,oBAAoB;IACpB,mBAAmB;IACnB,OAAO;IACP,UAAU;IACV,YAAY;IACZ,+BAA+B;CAClC;;AAED;IACI,SAAS;CACZ;;AAED;IACI,iBAAiB;CACpB","file":"styles.css","sourcesContent":[".yesNo div:first-child{ /* stylelint-disable */\r\n    position: relative;\r\n    width: 60px;\r\n    float: left;\r\n    margin-right: 15px;\r\n    -webkit-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n}\r\n\r\n.yesNo input {\r\n    margin: 4px 0 0;\r\n    line-height: normal;\r\n    padding: 0;\r\n    display: none;\r\n}\r\n\r\n.yesNo label {\r\n    display: block;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    border: 1px solid #d5d5d5;\r\n    border-radius: 10px;\r\n    font-weight: 400;\r\n}\r\n\r\n.yesNo span:first-child {\r\n    display: block;\r\n    width: 200%;\r\n    margin-left: -100%;\r\n    transition: margin .3s ease-in 0s;\r\n}\r\n\r\n.checked span:first-child {\r\n    margin-left:0;\r\n}\r\n\r\n.yesNo span:first-child::before, .yesNo span:first-child::after {\r\n    content: \"Yes\";\r\n    padding-left: 11px;\r\n    background-color: #00b1da;\r\n    color: #fff;\r\n    display: block;\r\n    float: left;\r\n    width: 50%;\r\n    height: 26px;\r\n    line-height: 25px;\r\n    font-size: 14px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.yesNo span:first-child::after {\r\n    content: \"No\";\r\n    padding-right: 12px;\r\n    background-color: #f9f9f9;\r\n    color: #747474;\r\n    text-align: right;\r\n}\r\n\r\n.yesNo span:last-child {\r\n    right: 0;\r\n    display: block;\r\n    width: 11px;\r\n    height: 16px;\r\n    margin: 6px;\r\n    background: #fff;\r\n    border: 1px solid #999;\r\n    border-radius: 20px;\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    right: 36px;\r\n    transition: all .3s ease-in 0s;\r\n}\r\n\r\n.checked span:last-child {\r\n    right: 0;\r\n}\r\n\r\n.yesNo div:last-child {\r\n    padding-top: 4px;\r\n}\r\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"yesNo": "yesNo__wwwroot-app-components-YesNo-styles__3SSPd",
+	"checked": "checked__wwwroot-app-components-YesNo-styles__kTGSS"
+};
+
+/***/ }),
+
+/***/ 1101:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(780);
+var content = __webpack_require__(806);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -46,8 +99,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(780780, function() {
-			var newContent = __webpack_require__(780);
+		module.hot.accept(806, function() {
+			var newContent = __webpack_require__(806);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -58,17 +111,17 @@ if(true) {
 
 /***/ }),
 
-/***/ 1104:
+/***/ 1107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CreatedUpdatedFooter__ = __webpack_require__(1264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dateformat__ = __webpack_require__(1272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CreatedUpdatedFooter__ = __webpack_require__(1246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dateformat__ = __webpack_require__(1275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dateformat___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_dateformat__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_constants__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__styles_css__ = __webpack_require__(1285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__styles_css__ = __webpack_require__(1288);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__styles_css__);
 /**
 *
@@ -162,7 +215,7 @@ DetailsSection.propTypes = {
 
 /***/ }),
 
-/***/ 1230:
+/***/ 1233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -173,7 +226,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["saveApplication"] = saveApplication;
 /* harmony export (immutable) */ __webpack_exports__["saveApplicationSucceeded"] = saveApplicationSucceeded;
 /* harmony export (immutable) */ __webpack_exports__["saveApplicationFailed"] = saveApplicationFailed;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1033);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1030);
 /*
  *
  * ApplicationDetailsContainer actions
@@ -226,31 +279,13 @@ function saveApplicationFailed(message) {
 
 /***/ }),
 
-/***/ 1233:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".applicationDetailsPage__wwwroot-app-components-ApplicationDetailsPage-styles__378jH { /* stylelint-disable */\r\n\r\n}\r\n\r\n.leftline__wwwroot-app-components-ApplicationDetailsPage-styles__1q_lv {\r\n    border-left: 1px solid;\r\n    padding-left: 10px;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/ApplicationDetailsPage/styles.css"],"names":[],"mappings":"AAAA,uFAA0B,uBAAuB;;CAEhD;;AAED;IACI,uBAAuB;IACvB,mBAAmB;CACtB","file":"styles.css","sourcesContent":[".applicationDetailsPage { /* stylelint-disable */\r\n\r\n}\r\n\r\n.leftline {\r\n    border-left: 1px solid;\r\n    padding-left: 10px;\r\n}"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"applicationDetailsPage": "applicationDetailsPage__wwwroot-app-components-ApplicationDetailsPage-styles__378jH",
-	"leftline": "leftline__wwwroot-app-components-ApplicationDetailsPage-styles__1q_lv"
-};
-
-/***/ }),
-
-/***/ 1264:
+/***/ 1246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1287);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_css__);
 /**
 *
@@ -318,13 +353,13 @@ function CreatedUpdatedFooter(_ref) {
 
 /***/ }),
 
-/***/ 1268:
+/***/ 1250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_css__);
 /**
 *
@@ -387,7 +422,25 @@ YesNo.propTypes = {
 
 /***/ }),
 
-/***/ 1272:
+/***/ 1254:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".applicationDetailsPage__wwwroot-app-components-ApplicationDetailsPage-styles__378jH { /* stylelint-disable */\r\n\r\n}\r\n\r\n.leftline__wwwroot-app-components-ApplicationDetailsPage-styles__1q_lv {\r\n    border-left: 1px solid;\r\n    padding-left: 10px;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/ApplicationDetailsPage/styles.css"],"names":[],"mappings":"AAAA,uFAA0B,uBAAuB;;CAEhD;;AAED;IACI,uBAAuB;IACvB,mBAAmB;CACtB","file":"styles.css","sourcesContent":[".applicationDetailsPage { /* stylelint-disable */\r\n\r\n}\r\n\r\n.leftline {\r\n    border-left: 1px solid;\r\n    padding-left: 10px;\r\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"applicationDetailsPage": "applicationDetailsPage__wwwroot-app-components-ApplicationDetailsPage-styles__378jH",
+	"leftline": "leftline__wwwroot-app-components-ApplicationDetailsPage-styles__1q_lv"
+};
+
+/***/ }),
+
+/***/ 1275:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -621,13 +674,13 @@ function kindOf(val) {
 
 /***/ }),
 
-/***/ 1284:
+/***/ 1287:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(861);
+var content = __webpack_require__(1079);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -641,8 +694,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(861861, function() {
-			var newContent = __webpack_require__(861);
+		module.hot.accept(1079, function() {
+			var newContent = __webpack_require__(1079);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -653,13 +706,13 @@ if(true) {
 
 /***/ }),
 
-/***/ 1285:
+/***/ 1288:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(862);
+var content = __webpack_require__(1080);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -673,8 +726,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(862862, function() {
-			var newContent = __webpack_require__(862);
+		module.hot.accept(1080, function() {
+			var newContent = __webpack_require__(1080);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -685,13 +738,13 @@ if(true) {
 
 /***/ }),
 
-/***/ 1289:
+/***/ 1292:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(866);
+var content = __webpack_require__(1084);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -705,8 +758,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(866866, function() {
-			var newContent = __webpack_require__(866);
+		module.hot.accept(1084, function() {
+			var newContent = __webpack_require__(1084);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -717,18 +770,18 @@ if(true) {
 
 /***/ }),
 
-/***/ 1329:
+/***/ 1332:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PageHeader__ = __webpack_require__(825);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DetailsSection__ = __webpack_require__(1104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InputText__ = __webpack_require__(869);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Button__ = __webpack_require__(824);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__YesNo__ = __webpack_require__(1268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_css__ = __webpack_require__(1522);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PageHeader__ = __webpack_require__(823);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DetailsSection__ = __webpack_require__(1107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InputText__ = __webpack_require__(866);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Button__ = __webpack_require__(822);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__YesNo__ = __webpack_require__(1250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_css__ = __webpack_require__(1528);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__styles_css__);
 /**
 *
@@ -897,7 +950,7 @@ function ApplicationDetailsPage(_ref) {
 
 /***/ }),
 
-/***/ 1354:
+/***/ 1357:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -938,13 +991,13 @@ var selectApplicationDetailsContainer = function selectApplicationDetailsContain
 
 /***/ }),
 
-/***/ 1522:
+/***/ 1528:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(1233);
+var content = __webpack_require__(1254);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -958,8 +1011,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(12331233, function() {
-			var newContent = __webpack_require__(1233);
+		module.hot.accept(1254, function() {
+			var newContent = __webpack_require__(1254);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -986,14 +1039,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_c_VSO_ReactDotnet_node_modules_react_transform_hmr_lib_index_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux__ = __webpack_require__(171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_redux__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectors__ = __webpack_require__(1354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_ApplicationDetailsPage__ = __webpack_require__(1329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__actions__ = __webpack_require__(1230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectors__ = __webpack_require__(1357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_ApplicationDetailsPage__ = __webpack_require__(1332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__actions__ = __webpack_require__(1233);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_redux__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_router_redux__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_router_redux__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_router_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_router_redux__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__shared_constants__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_actions__ = __webpack_require__(860);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_actions__ = __webpack_require__(863);
 
 
 
@@ -1250,7 +1303,7 @@ function mapDispatchToProps(dispatch) {
 
 /***/ }),
 
-/***/ 760:
+/***/ 776:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(35)(true);
@@ -1267,7 +1320,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 761:
+/***/ 777:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(35)(true);
@@ -1284,24 +1337,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 770:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".button__wwwroot-app-components-Button-styles__TFpfI { /* stylelint-disable */\r\n    width: 100%;\r\n    margin-top: 23px;\r\n    margin-left: -1px;\r\n    overflow: hidden;\r\n    text-overflow: clip;\r\n}\r\n\r\n.button__wwwroot-app-components-Button-styles__TFpfI span {\r\n    margin-right: 7px;\r\n}\r\n\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/Button/styles.css"],"names":[],"mappings":"AAAA,uDAAU,uBAAuB;IAC7B,YAAY;IACZ,iBAAiB;IACjB,kBAAkB;IAClB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,kBAAkB;CACrB","file":"styles.css","sourcesContent":[".button { /* stylelint-disable */\r\n    width: 100%;\r\n    margin-top: 23px;\r\n    margin-left: -1px;\r\n    overflow: hidden;\r\n    text-overflow: clip;\r\n}\r\n\r\n.button span {\r\n    margin-right: 7px;\r\n}\r\n\r\n"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"button": "button__wwwroot-app-components-Button-styles__TFpfI"
-};
-
-/***/ }),
-
-/***/ 776:
+/***/ 778:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1323,7 +1359,7 @@ var _propTypes = __webpack_require__(265);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _screenReaderStyles = __webpack_require__(823);
+var _screenReaderStyles = __webpack_require__(821);
 
 var _screenReaderStyles2 = _interopRequireDefault(_screenReaderStyles);
 
@@ -1449,7 +1485,24 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 780:
+/***/ 782:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(35)(true);
+// imports
+
+
+// module
+exports.push([module.i, ".button__wwwroot-app-components-Button-styles__TFpfI { /* stylelint-disable */\r\n    width: 100%;\r\n    margin-top: 23px;\r\n    margin-left: -1px;\r\n    overflow: hidden;\r\n    text-overflow: clip;\r\n}\r\n\r\n.button__wwwroot-app-components-Button-styles__TFpfI span {\r\n    margin-right: 7px;\r\n}\r\n\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/Button/styles.css"],"names":[],"mappings":"AAAA,uDAAU,uBAAuB;IAC7B,YAAY;IACZ,iBAAiB;IACjB,kBAAkB;IAClB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,kBAAkB;CACrB","file":"styles.css","sourcesContent":[".button { /* stylelint-disable */\r\n    width: 100%;\r\n    margin-top: 23px;\r\n    margin-left: -1px;\r\n    overflow: hidden;\r\n    text-overflow: clip;\r\n}\r\n\r\n.button span {\r\n    margin-right: 7px;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"button": "button__wwwroot-app-components-Button-styles__TFpfI"
+};
+
+/***/ }),
+
+/***/ 806:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(35)(true);
@@ -1467,13 +1520,13 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 808:
+/***/ 811:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(855);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(858);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_css__);
 /**
 *
@@ -1509,7 +1562,7 @@ A.propTypes = {
 
 /***/ }),
 
-/***/ 823:
+/***/ 821:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1532,15 +1585,15 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 824:
+/***/ 822:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome__ = __webpack_require__(776);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome__ = __webpack_require__(778);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_fontawesome__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css__ = __webpack_require__(867);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css__ = __webpack_require__(864);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__styles_css__);
 /**
 *
@@ -1583,16 +1636,16 @@ Button.propTypes = {
 
 /***/ }),
 
-/***/ 825:
+/***/ 823:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome__ = __webpack_require__(776);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome__ = __webpack_require__(778);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_fontawesome___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_fontawesome__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__A__ = __webpack_require__(808);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_css__ = __webpack_require__(856);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__A__ = __webpack_require__(811);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_css__ = __webpack_require__(859);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_css__);
 /**
 *
@@ -1663,13 +1716,13 @@ PageHeader.propTypes = {
 
 /***/ }),
 
-/***/ 855:
+/***/ 858:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(760);
+var content = __webpack_require__(776);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1683,8 +1736,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(760760, function() {
-			var newContent = __webpack_require__(760);
+		module.hot.accept(776, function() {
+			var newContent = __webpack_require__(776);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -1695,13 +1748,13 @@ if(true) {
 
 /***/ }),
 
-/***/ 856:
+/***/ 859:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(761);
+var content = __webpack_require__(777);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1715,8 +1768,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(761761, function() {
-			var newContent = __webpack_require__(761);
+		module.hot.accept(777, function() {
+			var newContent = __webpack_require__(777);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -1727,7 +1780,7 @@ if(true) {
 
 /***/ }),
 
-/***/ 860:
+/***/ 863:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1768,66 +1821,13 @@ function showLoading(isLoading) {
 
 /***/ }),
 
-/***/ 861:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C { /* stylelint-disable */\r\n\r\n}\r\n\r\n.createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C hr{\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/CreatedUpdatedFooter/styles.css"],"names":[],"mappings":"AAAA,mFAAwB,uBAAuB;;CAE9C;;AAED;IACI,sBAAsB;IACtB,iBAAiB;IACjB,oBAAoB;CACvB","file":"styles.css","sourcesContent":[".createdUpdatedFooter { /* stylelint-disable */\r\n\r\n}\r\n\r\n.createdUpdatedFooter hr{\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"createdUpdatedFooter": "createdUpdatedFooter__wwwroot-app-components-CreatedUpdatedFooter-styles__3AH5C"
-};
-
-/***/ }),
-
-/***/ 862:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe { /* stylelint-disable */\r\n\r\n}\r\n\r\n.detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe section {\r\n    background-color: #f3f3f4;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-bottom: 20px;\r\n    margin-bottom: 20px;\r\n    border: 1px solid #e5e5e5;\r\n    position: relative;\r\n}\r\n\r\n.detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe:last-child {\r\n    margin-bottom: 90px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP hr {\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP span {\r\n    line-height: 25px;\r\n}\r\n\r\n.footer__wwwroot-app-components-DetailsSection-styles__1pKDP b {\r\n    font-weight: 600 !important;\r\n}", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/DetailsSection/styles.css"],"names":[],"mappings":"AAAA,uEAAkB,uBAAuB;;CAExC;;AAED;IACI,0BAA0B;IAC1B,mBAAmB;IACnB,oBAAoB;IACpB,qBAAqB;IACrB,oBAAoB;IACpB,0BAA0B;IAC1B,mBAAmB;CACtB;;AAED;IACI,oBAAoB;CACvB;;AAED;IACI,sBAAsB;IACtB,iBAAiB;IACjB,oBAAoB;CACvB;;AAED;IACI,kBAAkB;CACrB;;AAED;IACI,4BAA4B;CAC/B","file":"styles.css","sourcesContent":[".detailsSection { /* stylelint-disable */\r\n\r\n}\r\n\r\n.detailsSection section {\r\n    background-color: #f3f3f4;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-bottom: 20px;\r\n    margin-bottom: 20px;\r\n    border: 1px solid #e5e5e5;\r\n    position: relative;\r\n}\r\n\r\n.detailsSection:last-child {\r\n    margin-bottom: 90px;\r\n}\r\n\r\n.footer hr {\r\n    border-color: #b9b9b9;\r\n    margin-top: 25px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.footer span {\r\n    line-height: 25px;\r\n}\r\n\r\n.footer b {\r\n    font-weight: 600 !important;\r\n}"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"detailsSection": "detailsSection__wwwroot-app-components-DetailsSection-styles__2sWSe",
-	"footer": "footer__wwwroot-app-components-DetailsSection-styles__1pKDP"
-};
-
-/***/ }),
-
-/***/ 866:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(35)(true);
-// imports
-
-
-// module
-exports.push([module.i, ".yesNo__wwwroot-app-components-YesNo-styles__3SSPd div:first-child{ /* stylelint-disable */\r\n    position: relative;\r\n    width: 60px;\r\n    float: left;\r\n    margin-right: 15px;\r\n    -webkit-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd input {\r\n    margin: 4px 0 0;\r\n    line-height: normal;\r\n    padding: 0;\r\n    display: none;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd label {\r\n    display: block;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    border: 1px solid #d5d5d5;\r\n    border-radius: 10px;\r\n    font-weight: 400;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child {\r\n    display: block;\r\n    width: 200%;\r\n    margin-left: -100%;\r\n    transition: margin .3s ease-in 0s;\r\n}\r\n\r\n.checked__wwwroot-app-components-YesNo-styles__kTGSS span:first-child {\r\n    margin-left:0;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::before, .yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::after {\r\n    content: \"Yes\";\r\n    padding-left: 11px;\r\n    background-color: #00b1da;\r\n    color: #fff;\r\n    display: block;\r\n    float: left;\r\n    width: 50%;\r\n    height: 26px;\r\n    line-height: 25px;\r\n    font-size: 14px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:first-child::after {\r\n    content: \"No\";\r\n    padding-right: 12px;\r\n    background-color: #f9f9f9;\r\n    color: #747474;\r\n    text-align: right;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd span:last-child {\r\n    right: 0;\r\n    display: block;\r\n    width: 11px;\r\n    height: 16px;\r\n    margin: 6px;\r\n    background: #fff;\r\n    border: 1px solid #999;\r\n    border-radius: 20px;\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    right: 36px;\r\n    transition: all .3s ease-in 0s;\r\n}\r\n\r\n.checked__wwwroot-app-components-YesNo-styles__kTGSS span:last-child {\r\n    right: 0;\r\n}\r\n\r\n.yesNo__wwwroot-app-components-YesNo-styles__3SSPd div:last-child {\r\n    padding-top: 4px;\r\n}\r\n", "", {"version":3,"sources":["c:/VSO/ReactDotnet/wwwroot/app/components/YesNo/styles.css"],"names":[],"mappings":"AAAA,oEAAwB,uBAAuB;IAC3C,mBAAmB;IACnB,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,0BAA0B;IAC1B,uBAAuB;IACvB,sBAAsB;CACzB;;AAED;IACI,gBAAgB;IAChB,oBAAoB;IACpB,WAAW;IACX,cAAc;CACjB;;AAED;IACI,eAAe;IACf,iBAAiB;IACjB,gBAAgB;IAChB,0BAA0B;IAC1B,oBAAoB;IACpB,iBAAiB;CACpB;;AAED;IACI,eAAe;IACf,YAAY;IACZ,mBAAmB;IACnB,kCAAkC;CACrC;;AAED;IACI,cAAc;CACjB;;AAED;IACI,eAAe;IACf,mBAAmB;IACnB,0BAA0B;IAC1B,YAAY;IACZ,eAAe;IACf,YAAY;IACZ,WAAW;IACX,aAAa;IACb,kBAAkB;IAClB,gBAAgB;IAChB,uBAAuB;CAC1B;;AAED;IACI,cAAc;IACd,oBAAoB;IACpB,0BAA0B;IAC1B,eAAe;IACf,kBAAkB;CACrB;;AAED;IACI,SAAS;IACT,eAAe;IACf,YAAY;IACZ,aAAa;IACb,YAAY;IACZ,iBAAiB;IACjB,uBAAuB;IACvB,oBAAoB;IACpB,mBAAmB;IACnB,OAAO;IACP,UAAU;IACV,YAAY;IACZ,+BAA+B;CAClC;;AAED;IACI,SAAS;CACZ;;AAED;IACI,iBAAiB;CACpB","file":"styles.css","sourcesContent":[".yesNo div:first-child{ /* stylelint-disable */\r\n    position: relative;\r\n    width: 60px;\r\n    float: left;\r\n    margin-right: 15px;\r\n    -webkit-user-select: none;\r\n    -moz-user-select: none;\r\n    -ms-user-select: none;\r\n}\r\n\r\n.yesNo input {\r\n    margin: 4px 0 0;\r\n    line-height: normal;\r\n    padding: 0;\r\n    display: none;\r\n}\r\n\r\n.yesNo label {\r\n    display: block;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    border: 1px solid #d5d5d5;\r\n    border-radius: 10px;\r\n    font-weight: 400;\r\n}\r\n\r\n.yesNo span:first-child {\r\n    display: block;\r\n    width: 200%;\r\n    margin-left: -100%;\r\n    transition: margin .3s ease-in 0s;\r\n}\r\n\r\n.checked span:first-child {\r\n    margin-left:0;\r\n}\r\n\r\n.yesNo span:first-child::before, .yesNo span:first-child::after {\r\n    content: \"Yes\";\r\n    padding-left: 11px;\r\n    background-color: #00b1da;\r\n    color: #fff;\r\n    display: block;\r\n    float: left;\r\n    width: 50%;\r\n    height: 26px;\r\n    line-height: 25px;\r\n    font-size: 14px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.yesNo span:first-child::after {\r\n    content: \"No\";\r\n    padding-right: 12px;\r\n    background-color: #f9f9f9;\r\n    color: #747474;\r\n    text-align: right;\r\n}\r\n\r\n.yesNo span:last-child {\r\n    right: 0;\r\n    display: block;\r\n    width: 11px;\r\n    height: 16px;\r\n    margin: 6px;\r\n    background: #fff;\r\n    border: 1px solid #999;\r\n    border-radius: 20px;\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    right: 36px;\r\n    transition: all .3s ease-in 0s;\r\n}\r\n\r\n.checked span:last-child {\r\n    right: 0;\r\n}\r\n\r\n.yesNo div:last-child {\r\n    padding-top: 4px;\r\n}\r\n"],"sourceRoot":""}]);
-
-// exports
-exports.locals = {
-	"yesNo": "yesNo__wwwroot-app-components-YesNo-styles__3SSPd",
-	"checked": "checked__wwwroot-app-components-YesNo-styles__kTGSS"
-};
-
-/***/ }),
-
-/***/ 867:
+/***/ 864:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(770);
+var content = __webpack_require__(782);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1841,8 +1841,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept(770770, function() {
-			var newContent = __webpack_require__(770);
+		module.hot.accept(782, function() {
+			var newContent = __webpack_require__(782);
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
@@ -1853,13 +1853,13 @@ if(true) {
 
 /***/ }),
 
-/***/ 869:
+/***/ 866:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1098);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css__ = __webpack_require__(1101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__styles_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__styles_css__);
 /**
 *

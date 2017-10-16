@@ -1,6 +1,6 @@
 webpackJsonp([12],{
 
-/***/ 1102:
+/***/ 1105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31,7 +31,7 @@ var USER_IMAGE_SUCCESS = 'app/LoginContainer/USER_IMAGE_SUCCESS';
 
 /***/ }),
 
-/***/ 1270:
+/***/ 1252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44,7 +44,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["loginFailure"] = loginFailure;
 /* harmony export (immutable) */ __webpack_exports__["requestUserImage"] = requestUserImage;
 /* harmony export (immutable) */ __webpack_exports__["userImageSuccess"] = userImageSuccess;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1105);
 /*
  *
  * LoginContainer actions
@@ -111,18 +111,18 @@ function userImageSuccess(imageUrl) {
 
 /***/ }),
 
-/***/ 1363:
+/***/ 1366:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(Buffer) {/* harmony export (immutable) */ __webpack_exports__["a"] = fetchAppInfoSaga;
 /* harmony export (immutable) */ __webpack_exports__["b"] = loginSaga;
 /* harmony export (immutable) */ __webpack_exports__["c"] = fetchUserImageURLSaga;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__(1105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux_saga__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redux_saga_effects__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(784);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions__ = __webpack_require__(1252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_config_environment__ = __webpack_require__(786);
 var _marked = /*#__PURE__*/regeneratorRuntime.mark(fetchAppInfo),
     _marked2 = /*#__PURE__*/regeneratorRuntime.mark(fetchAppInfoSaga),
     _marked3 = /*#__PURE__*/regeneratorRuntime.mark(loginUser),
@@ -308,11 +308,11 @@ function fetchUserImageURLSaga() {
     }
   }, _marked6, this);
 }
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1549).Buffer))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1555).Buffer))
 
 /***/ }),
 
-/***/ 1549:
+/***/ 1555:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(6))(22);
@@ -324,7 +324,7 @@ module.exports = (__webpack_require__(6))(22);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login_sagas__ = __webpack_require__(1363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login_sagas__ = __webpack_require__(1366);
 //import { take, call, put, select } from 'redux-saga/effects';
 
 
@@ -333,12 +333,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 784:
+/***/ 786:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiSettings; });
-var ApiSettings = { "searchPrefix": "https://iamapi.tryemanage.com/api/", "listPrefix": "https://iamapi.tryemanage.com/api/lists/", "filesPrefix": "https://iamapi.tryemanage.com/api/files/", "suffix": "iam" };
+var ApiSettings = { "searchPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/", "listPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/lists/", "filesPrefix": "http://emanage-dev-iam-api.azurewebsites.net/api/files/", "suffix": "iam-admin-test" };
 
 /***/ })
 

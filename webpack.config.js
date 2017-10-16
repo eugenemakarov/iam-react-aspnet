@@ -6,9 +6,12 @@ const merge = require('webpack-merge');
 const postcssFocus = require('postcss-focus');
 const cssnext = require('postcss-cssnext');
 const postcssReporter = require('postcss-reporter');
+const environmentSettings = require("./configuration/env-genrator");
 
 module.exports = (env) => {
     const isDevBuild = !(env && env.prod);
+
+    environmentSettings.env_gen;
 
     // Configuration in common to both client-side and server-side bundles
     const sharedConfig = () => ({

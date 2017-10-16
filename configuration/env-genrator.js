@@ -18,11 +18,14 @@ function addEnvironmentVariables() {
     //Append the select environment to variable created
     const api_settings = api_var + JSON.stringify(env_file[process.env.NODE_ENV]);
 
+    console.log("everything#############################################################################", process.env.NODE_ENV);
+    debugger
+
     //Log it to the console, so user know what kind of environment variables are generated.
     console.log(`Environment file built using ${process.env.NODE_ENV} environment ${chalk.green('✓')}`);
     
-    // fs.writeFileSync('wwwwroot/app/shared/config/environment.js', api_settings);
+    fs.writeFileSync('./wwwroot/app/_shared/config/environment.js', api_settings);
     
   }
 
-  addEnvironmentVariables();
+ exports.env_gen = addEnvironmentVariables();
