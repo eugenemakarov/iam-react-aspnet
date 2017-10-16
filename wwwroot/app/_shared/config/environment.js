@@ -1,0 +1,1 @@
+export const ApiSettings = {"searchPrefix":"https://iamapi.tryemanage.com/api/","listPrefix":"https://iamapi.tryemanage.com/api/lists/","filesPrefix":"https://iamapi.tryemanage.com/api/files/","suffix":"iam"}

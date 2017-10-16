@@ -1,0 +1,305 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\app\.htaccess" />
+    <None Include="wwwroot\app\.nginx.conf" />
+    <None Include="wwwroot\app\app.js" />
+    <None Include="wwwroot\app\components\ApplicationDetailsPage\index.js" />
+    <None Include="wwwroot\app\components\ApplicationDetailsPage\styles.css" />
+    <None Include="wwwroot\app\components\A\index.js" />
+    <None Include="wwwroot\app\components\A\styles.css" />
+    <None Include="wwwroot\app\components\Button\index.js" />
+    <None Include="wwwroot\app\components\Button\styles.css" />
+    <None Include="wwwroot\app\components\Button\tests\index.test.js" />
+    <None Include="wwwroot\app\components\ConfirmationModal\index.js" />
+    <None Include="wwwroot\app\components\ConfirmationModal\styles.css" />
+    <None Include="wwwroot\app\components\ConfirmationModal\tests\index.test.js" />
+    <None Include="wwwroot\app\components\CreatedUpdatedFooter\index.js" />
+    <None Include="wwwroot\app\components\CreatedUpdatedFooter\styles.css" />
+    <None Include="wwwroot\app\components\CreatedUpdatedFooter\tests\index.test.js" />
+    <None Include="wwwroot\app\components\DetailsSection\index.js" />
+    <None Include="wwwroot\app\components\DetailsSection\styles.css" />
+    <None Include="wwwroot\app\components\DetailsSection\tests\index.test.js" />
+    <None Include="wwwroot\app\components\FileUpload\index.js" />
+    <None Include="wwwroot\app\components\FileUpload\styles.css" />
+    <None Include="wwwroot\app\components\FileUpload\tests\index.test.js" />
+    <None Include="wwwroot\app\components\GridFooter\index.js" />
+    <None Include="wwwroot\app\components\GridFooter\styles.css" />
+    <None Include="wwwroot\app\components\GridFooter\tests\index.test.js" />
+    <None Include="wwwroot\app\components\GridList\index.js" />
+    <None Include="wwwroot\app\components\GridList\styles.css" />
+    <None Include="wwwroot\app\components\GridList\tests\index.test.js" />
+    <None Include="wwwroot\app\components\GridPageButtons\index.js" />
+    <None Include="wwwroot\app\components\GridPageButtons\styles.css" />
+    <None Include="wwwroot\app\components\GridPageButtons\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Grid\index.js" />
+    <None Include="wwwroot\app\components\Grid\styles.css" />
+    <None Include="wwwroot\app\components\Header\index.js" />
+    <None Include="wwwroot\app\components\Header\styles.css" />
+    <None Include="wwwroot\app\components\Header\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Home\index.js" />
+    <None Include="wwwroot\app\components\Home\messages.js" />
+    <None Include="wwwroot\app\components\Home\styles.css" />
+    <None Include="wwwroot\app\components\Home\tests\index.test.js" />
+    <None Include="wwwroot\app\components\InputDate\index.js" />
+    <None Include="wwwroot\app\components\InputDate\styles.css" />
+    <None Include="wwwroot\app\components\InputDate\tests\index.test.js" />
+    <None Include="wwwroot\app\components\InputPassword\index.js" />
+    <None Include="wwwroot\app\components\InputPassword\styles.css" />
+    <None Include="wwwroot\app\components\InputPassword\tests\index.test.js" />
+    <None Include="wwwroot\app\components\InputText\index.js" />
+    <None Include="wwwroot\app\components\InputText\styles.css" />
+    <None Include="wwwroot\app\components\InputText\tests\index.test.js" />
+    <None Include="wwwroot\app\components\LinkList\index.js" />
+    <None Include="wwwroot\app\components\LinkList\styles.css" />
+    <None Include="wwwroot\app\components\LinkList\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Link\index.js" />
+    <None Include="wwwroot\app\components\Link\styles.css" />
+    <None Include="wwwroot\app\components\Link\tests\index.test.js" />
+    <None Include="wwwroot\app\components\ListControls\index.js" />
+    <None Include="wwwroot\app\components\ListControls\styles.css" />
+    <None Include="wwwroot\app\components\ListControls\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Loading\index.js" />
+    <None Include="wwwroot\app\components\Loading\styles.css" />
+    <None Include="wwwroot\app\components\Loading\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Login\index.js" />
+    <None Include="wwwroot\app\components\Login\styles.css" />
+    <None Include="wwwroot\app\components\Login\tests\index.test.js" />
+    <None Include="wwwroot\app\components\LogoImage\index.js" />
+    <None Include="wwwroot\app\components\LogoImage\styles.css" />
+    <None Include="wwwroot\app\components\LogoImage\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Navigation\index.js" />
+    <None Include="wwwroot\app\components\Navigation\styles.css" />
+    <None Include="wwwroot\app\components\Navigation\tests\index.test.js" />
+    <None Include="wwwroot\app\components\PageHeader\index.js" />
+    <None Include="wwwroot\app\components\PageHeader\styles.css" />
+    <None Include="wwwroot\app\components\PageHeader\tests\index.test.js" />
+    <None Include="wwwroot\app\components\ProfilePictureSection\index.js" />
+    <None Include="wwwroot\app\components\ProfilePictureSection\styles.css" />
+    <None Include="wwwroot\app\components\ProfilePictureSection\tests\index.test.js" />
+    <None Include="wwwroot\app\components\RightMenu\index.js" />
+    <None Include="wwwroot\app\components\RightMenu\styles.css" />
+    <None Include="wwwroot\app\components\RightMenu\tests\index.test.js" />
+    <None Include="wwwroot\app\components\SelectAdd\index.js" />
+    <None Include="wwwroot\app\components\SelectAdd\styles.css" />
+    <None Include="wwwroot\app\components\SelectAdd\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Sidemenu\index.js" />
+    <None Include="wwwroot\app\components\Sidemenu\styles.css" />
+    <None Include="wwwroot\app\components\Sidemenu\tests\index.test.js" />
+    <None Include="wwwroot\app\components\TextArea\index.js" />
+    <None Include="wwwroot\app\components\TextArea\styles.css" />
+    <None Include="wwwroot\app\components\TextArea\tests\index.test.js" />
+    <None Include="wwwroot\app\components\Upcoming\index.js" />
+    <None Include="wwwroot\app\components\Upcoming\messages.js" />
+    <None Include="wwwroot\app\components\Upcoming\styles.css" />
+    <None Include="wwwroot\app\components\Upcoming\tests\index.test.js" />
+    <None Include="wwwroot\app\components\UserDetailsApplications\index.js" />
+    <None Include="wwwroot\app\components\UserDetailsApplications\styles.css" />
+    <None Include="wwwroot\app\components\UserDetailsApplications\tests\index.test.js" />
+    <None Include="wwwroot\app\components\UserDetailsGeneral\index.js" />
+    <None Include="wwwroot\app\components\UserDetailsGeneral\styles.css" />
+    <None Include="wwwroot\app\components\UserDetailsGeneral\tests\index.test.js" />
+    <None Include="wwwroot\app\components\UserDetailsPage\index.js" />
+    <None Include="wwwroot\app\components\UserDetailsPage\styles.css" />
+    <None Include="wwwroot\app\components\UserDetailsPage\tests\index.test.js" />
+    <None Include="wwwroot\app\components\UserDetailsProfile\index.js" />
+    <None Include="wwwroot\app\components\UserDetailsProfile\styles.css" />
+    <None Include="wwwroot\app\components\UserDetailsProfile\tests\index.test.js" />
+    <None Include="wwwroot\app\components\YesNoGrid\index.js" />
+    <None Include="wwwroot\app\components\YesNoGrid\styles.css" />
+    <None Include="wwwroot\app\components\YesNoGrid\tests\index.test.js" />
+    <None Include="wwwroot\app\components\YesNo\index.js" />
+    <None Include="wwwroot\app\components\YesNo\styles.css" />
+    <None Include="wwwroot\app\components\YesNo\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\actions.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\constants.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\index.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\sagas\fetchDetailsSaga.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\sagas\index.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\sagas\saveDetailsSaga.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationDetailsContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\actions.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\constants.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\index.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\sagas\deleteSaga.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\sagas\fetchApplicationsSaga.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\sagas\index.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\Applications\ApplicationsListContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\App\index.js" />
+    <None Include="wwwroot\app\containers\App\selectors.js" />
+    <None Include="wwwroot\app\containers\App\styles.css" />
+    <None Include="wwwroot\app\containers\App\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\actions.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\constants.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\index.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\sagas.js" />
+    <None Include="wwwroot\app\containers\DashboardContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\actions.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\constants.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\index.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\sagas\fetchUserSaga.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\sagas\index.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\styles.css" />
+    <None Include="wwwroot\app\containers\HeaderContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\HeaderContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\LanguageProvider\actions.js" />
+    <None Include="wwwroot\app\containers\LanguageProvider\constants.js" />
+    <None Include="wwwroot\app\containers\LanguageProvider\index.js" />
+    <None Include="wwwroot\app\containers\LanguageProvider\reducer.js" />
+    <None Include="wwwroot\app\containers\LanguageProvider\selectors.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\actions.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\constants.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\index.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\sagas\login-sagas.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\sagas\sagas.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\LoginContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\MainPage\index.js" />
+    <None Include="wwwroot\app\containers\MainPage\messages.js" />
+    <None Include="wwwroot\app\containers\MainPage\selector.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\actions.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\constants.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\index.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\sagas.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\styles.css" />
+    <None Include="wwwroot\app\containers\NavigationContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\NavigationContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\NotFoundPage\index.js" />
+    <None Include="wwwroot\app\containers\NotFoundPage\messages.js" />
+    <None Include="wwwroot\app\containers\UpcomingContainer\index.js" />
+    <None Include="wwwroot\app\containers\UpcomingContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\actions.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\constants.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\index.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\addApplicationSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\changePasswordSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\fetchDetailsSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\index.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\saveDetailsSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\sagas\uploadPictureSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\Users\UserDetailsContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\actions.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\constants.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\index.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\reducer.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\sagas\deleteUserSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\sagas\fetchUsersSaga.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\sagas\sagas.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\selectors.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\styles.css" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\tests\actions.test.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\tests\index.test.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\tests\reducer.test.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\tests\sagas.test.js" />
+    <None Include="wwwroot\app\containers\Users\UsersListContainer\tests\selectors.test.js" />
+    <None Include="wwwroot\app\favicon.ico" />
+    <None Include="wwwroot\app\i18n.js" />
+    <None Include="wwwroot\app\index.html" />
+    <None Include="wwwroot\app\reducers.js" />
+    <None Include="wwwroot\app\routes.js" />
+    <None Include="wwwroot\app\store.js" />
+    <None Include="wwwroot\app\tests\store.test.js" />
+    <None Include="wwwroot\app\utils\asyncInjectors.js" />
+    <None Include="wwwroot\app\utils\tests\asyncInjectors.test.js" />
+    <None Include="wwwroot\app\_shared\actions.js" />
+    <None Include="wwwroot\app\_shared\config\environment.js" />
+    <None Include="wwwroot\app\_shared\config\token-interceptor.js" />
+    <None Include="wwwroot\app\_shared\constants.js" />
+    <None Include="wwwroot\app\_shared\images\avatar_2x.png" />
+    <None Include="wwwroot\app\_shared\images\Logo.png" />
+    <None Include="wwwroot\app\_shared\images\LogoWhite.png" />
+    <None Include="wwwroot\app\_shared\images\logoWhiteSmall.png" />
+    <None Include="wwwroot\app\_shared\initialState.js" />
+    <None Include="wwwroot\app\_shared\reducers\listsReducer.js" />
+    <None Include="wwwroot\app\_shared\reducers\loadingReducer.js" />
+    <None Include="wwwroot\app\_shared\services\cookie-provider.js" />
+    <None Include="wwwroot\app\_shared\services\statusDeterminator.js" />
+    <None Include="wwwroot\app\_shared\services\validator.js" />
+    <None Include="wwwroot\app\_shared\styles\main.css" />
+  </ItemGroup>
+
+  <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+
+    <!-- In development, the dist files won't exist on the first run or when cloning to
+         a different machine, so rebuild them if not already present. -->
+    <Message Importance="high" Text="Performing first-run Webpack build..." />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec Command="npm install" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.prod" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --env.prod" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot\dist\**; ClientApp\dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

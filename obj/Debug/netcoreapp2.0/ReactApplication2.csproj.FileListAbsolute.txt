@@ -1,0 +1,55 @@
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.deps.json
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.json
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.dev.json
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.dll
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.pdb
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.csproj.CoreCompileInputs.cache
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfoInputs.cache
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.dll
+C:\Users\eugene\Documents\Visual Studio 2017\Projects\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
+C:\VSO\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.deps.json
+C:\VSO\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.json
+C:\VSO\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.dev.json
+C:\VSO\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.dll
+C:\VSO\ReactApplication2\ReactApplication2\bin\Debug\netcoreapp2.0\ReactApplication2.pdb
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.csproj.CoreCompileInputs.cache
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfoInputs.cache
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.dll
+C:\VSO\ReactApplication2\ReactApplication2\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\Users\Harmandev\Desktop\IAM_React_v3\bin\Debug\netcoreapp2.0\ReactApplication2.deps.json
+c:\Users\Harmandev\Desktop\IAM_React_v3\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.json
+c:\Users\Harmandev\Desktop\IAM_React_v3\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.dev.json
+c:\Users\Harmandev\Desktop\IAM_React_v3\bin\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\Users\Harmandev\Desktop\IAM_React_v3\bin\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.csproj.CoreCompileInputs.cache
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfoInputs.cache
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\Users\Harmandev\Desktop\IAM_React_v3\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\VSO\ReactApplication3\bin\Debug\netcoreapp2.0\ReactApplication2.deps.json
+c:\VSO\ReactApplication3\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.json
+c:\VSO\ReactApplication3\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.dev.json
+c:\VSO\ReactApplication3\bin\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\VSO\ReactApplication3\bin\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.csproj.CoreCompileInputs.cache
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfoInputs.cache
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\VSO\ReactApplication3\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\VSO\ReactDotnet\bin\Debug\netcoreapp2.0\ReactApplication2.deps.json
+c:\VSO\ReactDotnet\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.json
+c:\VSO\ReactDotnet\bin\Debug\netcoreapp2.0\ReactApplication2.runtimeconfig.dev.json
+c:\VSO\ReactDotnet\bin\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\VSO\ReactDotnet\bin\Debug\netcoreapp2.0\ReactApplication2.pdb
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.csproj.CoreCompileInputs.cache
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfoInputs.cache
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.dll
+c:\VSO\ReactDotnet\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
