@@ -29,9 +29,9 @@ export class UserDetailsContainer extends React.Component { // eslint-disable-li
     //User Details
     this.state = {
       id: null,
-      firstName:'New User',
-      lastName:'',
-      email:'',
+      firstName:'Fake User',
+      lastName:'Lastname',
+      email:'hello@world.com',
       isActive:true,
       birthday:null,
       phone:'',

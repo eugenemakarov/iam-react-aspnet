@@ -11,14 +11,14 @@ import FileUpload from '../FileUpload';
 
 import styles from './styles.css';
 
-function ProfilePictureSection({ details, handleFileChange, handleRequestHide, handleCrop }) {
+function ProfilePictureSection({ details, handleFileChange, handleRequestHide, handleCrop, className }) {
 
   const { profilePictureUrl, img, cropperOpen } = details;
 
   const imgSrc = profilePictureUrl ? profilePictureUrl : require("../../_shared/images/avatar_2x.png");
 
   return (
-    <div className={styles.profilePictureSection}>
+    <div className={`${styles.profilePictureSection} ${className||''}`}>
       {cropperOpen &&
         <AvatarCropper
           onRequestHide={handleRequestHide}

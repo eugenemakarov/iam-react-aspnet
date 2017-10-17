@@ -2,10 +2,6 @@ body {
   background-color: #cecece;
 }
 
-.profilePage { /* stylelint-disable */
-  
-}
-
 .wrapper {
   min-height: 200px;
   margin-top: 20px;
@@ -29,6 +25,8 @@ body {
   border: 1px solid #424d58;
   margin: 15px;
   padding-top: 0;
+  padding-bottom: 20px;
+  background-color: #f1f1f1;
 }
 
 .sectionHeader {
@@ -44,10 +42,21 @@ body {
   font-weight: 100;
   margin-bottom: 10px;
 }
-    
-.personalInformation {
-  padding-bottom: 5px;
-  height: 333px;
-  transition: all .3s linear;
-  background-color: #f1f1f1;
+
+.headerButton, .disabledButton {
+  width: 150px;
 }
+
+.headerButton {
+  margin-top: 0;
+}
+
+.headerButton:last-child {
+  margin-left: 20px;    
+}
+
+
+.disabledButton {
+  margin-top: 15px;
+  margin-left: 15px;
+} 

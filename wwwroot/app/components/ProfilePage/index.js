@@ -8,30 +8,50 @@ import React from 'react';
 import InputText from '../InputText';
 import InputDate from '../InputDate';
 import TextArea from '../TextArea';
+import InputPassword from '../InputPassword';
 import Button from '../Button';
 import styles from './styles.css';
 import ProfilePictureSection from '../ProfilePictureSection';
 
-function ProfilePage({ details, inputChange, handleCrop, handleRequestHide, handleFileChange }) {
+function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handleRequestHide, handleFileChange, handleBackButton }) {
   const classes = `${styles.profilePage}`;
-
+  function boom(){};
   return (
     <div className={classes}>
       
       <div className={`${styles.wrapper} col-xs-offset-1 col-xs-10 `}>
         <div className={styles.profileHeader}>
-          My Account
-          <button className="btn btn-success pull-right button-profile"> <span className="fa fa-floppy-o"></span> Save </button>
-          <button className="btn btn-primary pull-right button-profile"> <span className="fa fa-arrow-left"></span> Back </button>
+          <div className="row">
+            <div className="col-md-9">
+              My Account
+            </div>
+            <div className="col-md-3 text-right">
+              <Button
+                label='Back'
+                color='primary'
+                icon='arrow-left'
+                className={styles.headerButton}
+                onClick={handleBackButton}
+              />
+              
+              <Button
+                label='Save'
+                color='success'
+                icon='floppy-o'
+                className={styles.headerButton}
+                onClick={handleSaveButton}
+              />
+            </div>
+          </div>
         </div>
         
-        <div className={`${styles.section} ${styles.personalInformation}`}>
+        <div className={styles.section}>
         
           <div className={styles.sectionHeader}>
             <h5>Personal Information</h5>
           </div>
 
-          <div className='my-account-dropdown-content'>
+          <div className='content'>
             <div className="row">
                 <div className="col-md-3">
 
@@ -101,22 +121,70 @@ function ProfilePage({ details, inputChange, handleCrop, handleRequestHide, hand
                   />
                 </div>
 
-
                 <div className="col-md-6">
-{/* 
-                    <img id="profileImg" className="img-thumbnail center-block" width="200" alt="your image." src="https://emanagedevstorage.blob.core.windows.net/public/images/profile/9db2757d-83c0-465c-a478-7827157f1228newImage.png" src="https://emanagedevstorage.blob.core.windows.net/public/images/profile/9db2757d-83c0-465c-a478-7827157f1228newImage.png" />
-
-                    <button className="btn btn-primary button-mar">  Upload picture </button> */}
-
-                    <ProfilePictureSection details={details} handleFileChange={handleFileChange} handleCrop={handleCrop} handleRequestHide={handleRequestHide}/>
-
+                  <ProfilePictureSection
+                    details={details}
+                    handleFileChange={handleFileChange}
+                    handleCrop={handleCrop}
+                    handleRequestHide={handleRequestHide}
+                    className='mt-m'
+                  />
                 </div>
 
             </div>
           </div>
         </div>
 
-        <div className='account-settings'> 
+        <div className={styles.section}>
+        
+          <div className={styles.sectionHeader}>
+            <h5>Account Settings</h5>
+          </div>
+
+          <div className='content'>
+            <div className="row">
+              <div className="col-md-3">
+                <InputPassword
+                  label='Password'
+                  name='pswd1'
+                  value={details.pswd1}
+                  onChange={inputChange}
+                  placeholder=''
+                  errorMessage={details.errors.pswd1}
+                  size='12'
+                  className='mt-m'
+                />
+
+                  <Button
+                    label='Logout all sessions'
+                    color='default'
+                    className={styles.disabledButton}
+                    disabled
+                    onClick={boom}
+                  />
+              </div>
+              <div className="col-md-3">
+                <InputPassword
+                  label='Retype Password'
+                  name='pswd2'
+                  value={details.pswd2}
+                  onChange={inputChange}
+                  placeholder=''
+                  errorMessage={details.errors.pswd2}
+                  size='12'
+                  className='mt-m'
+                />
+
+                  <Button
+                    label='Deactivate account'
+                    color='default'
+                    disabled
+                    onClick={boom}
+                    className={styles.disabledButton}
+                  />
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
