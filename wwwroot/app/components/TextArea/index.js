@@ -9,8 +9,8 @@ import React from 'react';
 
 import styles from './styles.css';
 
-function TextArea({ label, name, value, placeholder, error, errorMessage, size, onChange, maxlength, rows }) {
-  let classes = `${styles.textArea} col-md-${size}`;
+function TextArea({ label, name, value, placeholder, error, errorMessage, size, onChange, maxlength, rows, className }) {
+  let classes = `${styles.textArea} col-md-${size} ${className||''}`;
   classes += value && value.length > 0 && error === true ? ` ${styles.error}` : ``;
 
   function handleOnChange(event){

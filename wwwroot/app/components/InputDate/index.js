@@ -10,8 +10,8 @@ import moment from 'moment';
 
 import styles from './styles.css';
 
-function InputDate({ label, name, value, placeholder, error, errorMessage, size, onChange }) {
-  let classes = `${styles.inputDate} col-md-${size}`;
+function InputDate({ label, name, value, placeholder, error, errorMessage, size, onChange, className }) {
+  let classes = `${styles.inputDate} col-md-${size} ${className || ''}`;
   classes += value && value.length > 0 && error === true ? ` ${styles.error}` : ``;
   
   // let selectedDay = value ? value.toString() : '';

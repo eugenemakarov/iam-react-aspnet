@@ -42,11 +42,6 @@ export class UserDetailsContainer extends React.Component { // eslint-disable-li
       originalApplications:[],
       selectedApplication:null,
       selectedApplicationDetails:null,
-
-      // createDate:'',
-      // createBy:'',
-      // lastUpdateDate:'',
-      // lastUpdateBy:'',
       pswd1:'',
       pswd2: '',
       changingPassword: false,

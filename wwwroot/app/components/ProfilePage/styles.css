@@ -1,0 +1,53 @@
+body {
+  background-color: #cecece;
+}
+
+.profilePage { /* stylelint-disable */
+  
+}
+
+.wrapper {
+  min-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  box-shadow: 0 0 3px 2px rgba(0,0,0,.2);
+  background-color: #fff;
+}
+
+.profileHeader {
+  padding: 13px 0 11px 2px;
+  font-size: 22px;
+  margin: 0 17px;
+  font-weight: 600;
+  color: #424d58;
+  border-bottom: 1px solid #5f6a75;
+}
+
+.section {
+  margin-top: 20px;
+  border: 1px solid #424d58;
+  margin: 15px;
+  padding-top: 0;
+}
+
+.sectionHeader {
+  background-color: #424d58;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sectionHeader > h5 {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+    
+.personalInformation {
+  padding-bottom: 5px;
+  height: 333px;
+  transition: all .3s linear;
+  background-color: #f1f1f1;
+}
