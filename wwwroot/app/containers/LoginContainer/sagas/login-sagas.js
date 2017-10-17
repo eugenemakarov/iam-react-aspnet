@@ -3,6 +3,8 @@ import { LOGIN_REQUEST, REQUEST_APP_INFO, REQUEST_USER_IMAGE } from './../consta
 import { takeLatest, takeEvery } from 'redux-saga';
 import { call, put } from 'redux-saga/effects';
 import { loginSuccess, loginFailure, requestAppInfoSucceeded, requestAppInfoFailed, userImageSuccess } from './../actions';
+import {getCookie, createCookie, eraseCookie} from '../../../_shared/services/cookie-provider';
+import { push } from 'react-router-redux';
 
 import {ApiSettings} from '../../../_shared/config/environment';
 
@@ -40,8 +42,31 @@ function* loginUser(userInfo){
     try {
         const hash = new Buffer(`${userInfo.payload.username}:${userInfo.payload.password}`).toString('base64');
         const tokenInfo = yield call(loginInfoToServer, hash);
-        yield put(loginSuccess(tokenInfo, {rememberMe: userInfo.payload.rememberMe, userEmail: userInfo.payload.username}));
+        
+        createCookie("tk", tokenInfo.tokenId, 1);
+
+        if (userInfo.payload.rememberMe === true) {
+          localStorage.setItem('userEmail', JSON.stringify({userEmail: userInfo.payload.username}));
+        } else {
+          localStorage.removeItem('userEmail'); 
+        }
+        
+        let redirectPath = getCookie("redirectPath") || "/#/dashboard";
+        
+        yield put(loginSuccess());
+        
+        console.log('redirect to: ', redirectPath);
+
+        yield put(push(redirectPath));        
+        
       } catch (e) {
+
+        if(getCookie("tk")) eraseCookie("tk");
+
+        if (localStorage.getItem('userEmail') !== undefined ) {
+          localStorage.removeItem('userEmail');
+        }
+
         yield put(loginFailure(e.message));
       }
 }

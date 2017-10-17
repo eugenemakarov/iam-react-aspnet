@@ -2,6 +2,8 @@ import { REQUEST_USER } from './../constants';
 import { takeLatest } from 'redux-saga';
 import { call, put } from 'redux-saga/effects';
 import { requestUserSucceeded, requestUserFailed } from './../actions';
+import { push } from 'react-router-redux';
+
 
 import {ApiSettings} from '../../../_shared/config/environment';
 
@@ -17,11 +19,11 @@ function* fetchUser() {
     if (user) {
       yield put(requestUserSucceeded(user));
     } else {
-      window.location.href = "/#/signin"; 
+      yield put(push('/signin'));
     }
   } catch (e) {
+    yield put(push('/signin'));    
     yield put(requestUserFailed(e.message));
-    window.location.href = "/#/signin"; 
   }
 }
 

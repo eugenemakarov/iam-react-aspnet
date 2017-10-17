@@ -165,6 +165,8 @@ export class UserDetailsContainer extends React.Component { // eslint-disable-li
     
     if (!this.validateRequiredFields()) return;
 
+    this.setState({changingPassword: false});
+
     if (payload.id) {
       this.props.actions.requestSaveUser(payload);
     } else {

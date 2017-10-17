@@ -14,8 +14,8 @@ function Header({currentUser, onClick, showModal, close, logout}) {
   return (
     <div className={classes} style={{ borderBottom: '1px solid #ccc', height: '55px' }}>
 
-      <div className={`${styles.navbarSignOut} clickable unselectable`}>
-        <a onClick={onClick}>Sign out</a>
+      <div onClick={onClick} className={`${styles.navbarSignOut} clickable unselectable`}>
+        <a>Sign out</a>
       </div>
 
       <div className={`${styles.navbarHeaderDivider}`}></div>

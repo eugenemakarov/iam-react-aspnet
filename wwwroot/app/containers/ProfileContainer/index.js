@@ -21,7 +21,7 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
   
     //User Details
     this.state = {
-      id: null,
+      userId: null,
       firstName:'New User',
       lastName:'',
       email:'',
@@ -31,10 +31,6 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       location:'',
       aboutMe:'',
       profilePictureUrl:'',
-      applications:[],
-      originalApplications:[],
-      selectedApplication:null,
-      selectedApplicationDetails:null,
       pswd1:'',
       pswd2: '',
       inputsAreValid: false,
@@ -116,8 +112,8 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       img: null,
       profilePictureUrl: dataURI
     });
-
-    this.props.actions.requestUploadPicture(this.state.id, dataURI);
+debugger
+    this.props.actions.requestUploadPicture(this.state.userId, dataURI);
   }
 
   handleRequestHide() {

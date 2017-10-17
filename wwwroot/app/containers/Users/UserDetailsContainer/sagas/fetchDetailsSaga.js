@@ -13,7 +13,7 @@ function fetchDetailsFromServer(id) {
 }
 
 function fetchListFromServer(name) {
-  return fetch(`http://localhost:3000/api/lists/${name}`)
+  return fetch(`${ApiSettings.searchPrefix}lists/${name}`)
     .then(response => response.json());
 }
 
