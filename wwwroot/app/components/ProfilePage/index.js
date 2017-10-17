@@ -145,7 +145,7 @@ function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handl
             <div className="row">
               <div className="col-md-3">
                 <InputPassword
-                  label='Password'
+                  label='New Password (optional)'
                   name='pswd1'
                   value={details.pswd1}
                   onChange={inputChange}
@@ -165,7 +165,7 @@ function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handl
               </div>
               <div className="col-md-3">
                 <InputPassword
-                  label='Retype Password'
+                  label='Retype new Password'
                   name='pswd2'
                   value={details.pswd2}
                   onChange={inputChange}
@@ -186,7 +186,11 @@ function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handl
             </div>
           </div>
         </div>
-
+        <div className={styles.copyright}>
+          <small>2017 Direct Focus Online</small>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <small>Help and Feedback</small>
+        </div>
       </div>
     </div>
   );

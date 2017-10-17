@@ -59,4 +59,11 @@ body {
 .disabledButton {
   margin-top: 15px;
   margin-left: 15px;
-} 
+}
+
+.copyright {
+  text-align: right;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-top: 0;
+}
