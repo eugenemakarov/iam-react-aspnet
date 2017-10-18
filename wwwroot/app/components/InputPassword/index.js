@@ -9,8 +9,8 @@ import DayPickerInput from 'react-day-picker/DayPickerInput';
 
 import styles from './styles.css';
 
-function InputPassword({ label, name, value, placeholder, errorMessage, size, onChange }) {
-  let classes = `${styles.inputPassword} col-md-${size}`;
+function InputPassword({ label, name, value, placeholder, errorMessage, size, onChange, className }) {
+  let classes = `${styles.inputPassword} col-md-${size} ${className||''}`;
   classes += errorMessage && errorMessage.length > 0 ? ` ${styles.error}` : ``;
   
   return (

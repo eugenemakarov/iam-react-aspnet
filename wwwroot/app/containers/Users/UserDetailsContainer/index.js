@@ -29,9 +29,9 @@ export class UserDetailsContainer extends React.Component { // eslint-disable-li
     //User Details
     this.state = {
       id: null,
-      firstName:'New User',
-      lastName:'',
-      email:'',
+      firstName:'Fake User',
+      lastName:'Lastname',
+      email:'hello@world.com',
       isActive:true,
       birthday:null,
       phone:'',
@@ -164,6 +164,8 @@ export class UserDetailsContainer extends React.Component { // eslint-disable-li
     let payload = this.mapProperties(this.state);
     
     if (!this.validateRequiredFields()) return;
+
+    this.setState({changingPassword: false});
 
     if (payload.id) {
       this.props.actions.requestSaveUser(payload);

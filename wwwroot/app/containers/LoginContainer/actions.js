@@ -7,14 +7,14 @@
 import {
   REQUEST_APP_INFO,
   REQUEST_APP_INFO_SUCCEEDED,
-  REQUEST_APP_INFO_FAILURE,
+  REQUEST_APP_INFO_FAILED,
 
   LOGIN_REQUEST,
-  LOGIN_REQUEST_SUCCESS,
-  LOGIN_REQUEST_FAILURE,
+  LOGIN_REQUEST_SUCCEEDED,
+  LOGIN_REQUEST_FAILED,
 
   REQUEST_USER_IMAGE,
-  USER_IMAGE_SUCCESS
+  REQUEST_USER_IMAGE_SUCCEEDED
 } from './constants';
 
 export function requestAppInfo() {
@@ -32,7 +32,7 @@ export function requestAppInfoSucceeded(appInfo) {
 
 export function requestAppInfoFailed(message) {
   return {
-    type: REQUEST_APP_INFO_FAILURE,
+    type: REQUEST_APP_INFO_FAILED,
     message,
   };
 }
@@ -46,7 +46,7 @@ export function loginRequest(payload) {
 
 export function loginSuccess(tokenInfo, userInfo) {
   return {
-    type: LOGIN_REQUEST_SUCCESS,
+    type: LOGIN_REQUEST_SUCCEEDED,
     tokenInfo,
     userInfo
   };
@@ -54,7 +54,7 @@ export function loginSuccess(tokenInfo, userInfo) {
 
 export function loginFailure(message) {
   return {
-    type: LOGIN_REQUEST_FAILURE,
+    type: LOGIN_REQUEST_FAILED,
     message
   };
 }
@@ -68,7 +68,7 @@ export function requestUserImage(userEmail){
 
 export function userImageSuccess(imageUrl){
   return {
-    type: USER_IMAGE_SUCCESS,
+    type: REQUEST_USER_IMAGE_SUCCEEDED,
     imageUrl
   };
 }

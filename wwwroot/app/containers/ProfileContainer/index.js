@@ -21,7 +21,7 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
   
     //User Details
     this.state = {
-      id: null,
+      userId: null,
       firstName:'New User',
       lastName:'',
       email:'',
@@ -31,10 +31,6 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       location:'',
       aboutMe:'',
       profilePictureUrl:'',
-      applications:[],
-      originalApplications:[],
-      selectedApplication:null,
-      selectedApplicationDetails:null,
       pswd1:'',
       pswd2: '',
       inputsAreValid: false,
@@ -51,14 +47,15 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
   }
 
   componentWillMount(){
-    const { id } = this.props.params;
+    const id = this.props.location ? this.props.location.query.t : '';
     
-    // this.props.actions.showLoading(true);
-    // this.props.actions.requestUser(id);
+    this.props.actions.showLoading(true);
+    this.props.actions.requestProfile(id);
   }
 
   componentWillReceiveProps(nextProps){
     if (nextProps) {
+      nextProps.userDetails.phone = nextProps.userDetails ? +nextProps.userDetails.phone : null; //make phone a number
       this.setState(nextProps.userDetails);
     }
   }
@@ -115,8 +112,8 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       img: null,
       profilePictureUrl: dataURI
     });
-
-    this.props.actions.requestUploadPicture(this.state.id, dataURI);
+debugger
+    this.props.actions.requestUploadPicture(this.state.userId, dataURI);
   }
 
   handleRequestHide() {

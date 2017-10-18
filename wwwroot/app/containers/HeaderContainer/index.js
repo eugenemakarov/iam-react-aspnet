@@ -40,7 +40,7 @@ export class HeaderContainer extends React.Component { // eslint-disable-line re
 
   logout(){
     if(getCookie("tk")) eraseCookie('tk');
-    window.location.href = '/signin';
+    window.location.href = '/#/signin';
   }
 
   render() {

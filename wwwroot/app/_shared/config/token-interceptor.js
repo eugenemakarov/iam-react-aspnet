@@ -1,9 +1,6 @@
 import {getCookie, eraseCookie, createCookie} from '../services/cookie-provider';
 import fetchIntercept from 'fetch-intercept';
 
-
-
-
 export default function TokenInterceptor(){
     const unregister = fetchIntercept.register({
         request: function (url, config) {
@@ -24,10 +21,6 @@ export default function TokenInterceptor(){
                         }
                     }
                 }
-                //if (window.location.href.indexOf("/signin") !== -1) {
-                //    let redirectPath = getCookie("redirectPath");
-                //    window.location.href = redirectPath || "/dashboard";
-                //}
             }
             return [url, config];
         },
@@ -36,14 +29,16 @@ export default function TokenInterceptor(){
             // Modify the reponse object
             if (response.status === 401 && response.statusText == "Auth token is either missing or is invalid.") {
                 eraseCookie("tk");
-                createCookie("redirectPath", window.location.href, 1);
+                
+                let redirectPath = window.location.href.slice(window.location.href.indexOf('/#/') + 2) || '/dashboard';
+
+                createCookie("redirectPath", redirectPath, 1);
                 try {
                     window.stop();
                 }
                 catch (e) {
                     document.execCommand("Stop");
                 }
-                //window.location.href = "/signin";    
             }
             return response;
         },

@@ -1,3 +1,7 @@
+body {
+    background: #fff;
+}
+
 .header { /* stylelint-disable */
     padding-right: 0;
 }
