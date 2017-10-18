@@ -36,7 +36,9 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       inputsAreValid: false,
       errors: { },
       img: null,
-      cropperOpen: false
+      cropperOpen: false,
+      showModal: false,
+      newPassword: null
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -44,6 +46,7 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
     this.handleFileChange = this.handleFileChange.bind(this);
     this.handleCrop = this.handleCrop.bind(this);
     this.handleRequestHide = this.handleRequestHide.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
   }
 
   componentWillMount(){
@@ -75,11 +78,13 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
   }
 
   handleSubmit() {
+    
+    this.toggleModal();
     let payload = this.mapProperties(this.state);
     
     // if (!this.validateRequiredFields()) return;
-
-    // this.props.actions.requestSaveUser(payload);
+    
+    this.props.actions.requestSaveProfile(payload);
   }
     
   mapProperties(data){
@@ -95,7 +100,13 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
     delete payload.cropperOpen;
     delete payload.activeSection;
     delete payload.originalApplications;
-
+    debugger
+    if (this.state.pswd1 && this.state.pswd1.length > 0 ) { // if user entered new password, assign it
+      payload.newPassword = this.state.pswd1;
+    } else {
+      delete payload.newPassword;
+    }
+    
     return payload ;
   }
 
@@ -112,13 +123,18 @@ export class ProfileContainer extends React.Component { // eslint-disable-line r
       img: null,
       profilePictureUrl: dataURI
     });
-debugger
     this.props.actions.requestUploadPicture(this.state.userId, dataURI);
   }
 
   handleRequestHide() {
     this.setState({
       cropperOpen: false
+    });
+  }
+
+  toggleModal() {
+    this.setState({
+      showModal: !this.state.showModal
     });
   }
 
@@ -130,8 +146,9 @@ debugger
         handleFileChange={this.handleFileChange}
         handleCrop={this.handleCrop}
         handleRequestHide={this.handleRequestHide}
-        handleSaveButton={this.handleSubmit}
+        saveProfile={this.handleSubmit}
         handleBackButton={this.props.actions.goBack}
+        toggleModal={this.toggleModal}
       />
     );
   }

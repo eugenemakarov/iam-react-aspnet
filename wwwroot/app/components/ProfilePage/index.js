@@ -12,10 +12,27 @@ import InputPassword from '../InputPassword';
 import Button from '../Button';
 import styles from './styles.css';
 import ProfilePictureSection from '../ProfilePictureSection';
+import ConfirmationModal from '../ConfirmationModal';
 
-function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handleRequestHide, handleFileChange, handleBackButton }) {
+function ProfilePage({ details, inputChange, saveProfile, handleCrop, handleRequestHide, handleFileChange, handleBackButton, toggleModal }) {
   const classes = `${styles.profilePage}`;
   function boom(){};
+  
+  let htmlPasswordInput = (
+    <div className="row">
+      <div className="col-md-1"></div>
+      <InputPassword
+        label='Please type our password to change the profile'
+        name='password'
+        value={details.password}
+        onChange={inputChange}
+        placeholder=''
+        errorMessage={details.errors.password}
+        size='10'
+      />
+    </div>
+  );
+
   return (
     <div className={classes}>
       
@@ -39,7 +56,7 @@ function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handl
                 color='success'
                 icon='floppy-o'
                 className={styles.headerButton}
-                onClick={handleSaveButton}
+                onClick={toggleModal}
               />
             </div>
           </div>
@@ -192,6 +209,16 @@ function ProfilePage({ details, inputChange, handleSaveButton, handleCrop, handl
           <small>Help and Feedback</small>
         </div>
       </div>
+
+      
+      <ConfirmationModal
+        header='Password Confirmation'
+        body={htmlPasswordInput}
+        confirm={{text: 'OK', color:'success', callBack: saveProfile, isDisabled:false}}
+        cancel={{text: 'Cancel', color:'primary', callBack: toggleModal, isDisabled: false}}
+        showModal={details.showModal}
+      />
+
     </div>
   );
 }

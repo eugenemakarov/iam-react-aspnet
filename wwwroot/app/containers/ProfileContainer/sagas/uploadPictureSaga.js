@@ -17,7 +17,6 @@ function uploadPictureToServer(payload) {
 }
 
 function* uploadPicture(action) {
-  debugger
   const { id, data } = action;
 
   let imgName = `imgUserId${id}.png`;
