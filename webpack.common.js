@@ -8,13 +8,12 @@ const cssnext = require('postcss-cssnext');
 const postcssReporter = require('postcss-reporter');
 const environmentSettings = require("./configuration/env-genrator");
 
+
+
 module.exports = (env) => {
-    const isDevBuild = !(env && env.prod);
-
     environmentSettings.env_gen;
-
     // Configuration in common to both client-side and server-side bundles
-    const sharedConfig = () => ({
+    const sharedConfig = {
         stats: { modules: false },
         resolve: {
             modules: ['app', 'node_modules'],
@@ -83,49 +82,7 @@ module.exports = (env) => {
         resolveLoader: {
             moduleExtensions: ['-loader']
         },
-    });
+    };
 
-    // Configuration for client-side bundle suitable for running in browsers
-    const clientBundleOutputDir = './wwwroot/dist';
-    const clientBundleConfig = merge(sharedConfig(), {
-        entry: { 'main-client': './wwwroot/app/app.js' },
-        output: { path: path.join(__dirname, clientBundleOutputDir) },
-        plugins: [
-            new webpack.DllReferencePlugin({
-                context: __dirname,
-                manifest: require('./wwwroot/dist/vendor-manifest.json')
-            }),
-        ].concat(isDevBuild ? [
-            // Plugins that apply in development builds only
-            new webpack.SourceMapDevToolPlugin({
-                filename: '[file].map', // Remove this line if you prefer inline source maps
-                moduleFilenameTemplate: path.relative(clientBundleOutputDir, '[resourcePath]') // Point sourcemap entries to the original file locations on disk
-            })
-        ] : [
-            // Plugins that apply in production builds only
-            new webpack.optimize.UglifyJsPlugin()
-        ])
-    });
-
-    // Configuration for server-side (prerendering) bundle suitable for running in Node
-    const serverBundleConfig = merge(sharedConfig(), {
-        resolve: { mainFields: ['main'] },
-        entry: { 'main-server': './ClientApp/boot-server.tsx' },
-        //plugins: [
-        //    new webpack.DllReferencePlugin({
-        //        context: __dirname,
-        //        manifest: require('./ClientApp/dist/vendor-manifest.json'),
-        //        sourceType: 'commonjs2',
-        //        name: './vendor'
-        //    })
-        //],
-        output: {
-            libraryTarget: 'commonjs',
-            path: path.join(__dirname, './ClientApp/dist')
-        },
-        target: 'node',
-        devtool: 'inline-source-map'
-    });
-
-    return [clientBundleConfig, clientBundleConfig];
+    return sharedConfig;
 };

@@ -4769,7 +4769,7 @@
       ]
     },
     "Microsoft.ApplicationInsights/2.4.0": {
-      "sha512": "mkFYV4DyQ5/MiaT1hsycjv2F3CQh3EsjN1KZb4fBGcxN88ZfV8jewcgt5mH0XLC7mw65yMdr38OtW7xP3FhGSg==",
+      "sha512": "4dX/zu3Psz9oM3ErU64xfOHuSxOwMxN6q5RabSkeYbX42Yn6dR/kDToqjs+txCRjrfHUxyYjfeJHu+MbCfvAsg==",
       "type": "package",
       "path": "microsoft.applicationinsights/2.4.0",
       "files": [
@@ -4789,7 +4789,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.1.1": {
-      "sha512": "kiGmzl9Cav34dF7AHVMoJxdJJQEeLB8KZGNwX1LjImG9iem5hGk4DkHpW7/m9Nh3DrL8IKSL3mqQo+IPqWfMRQ==",
+      "sha512": "zHLdu2Cw0ng6yYzCrkIHPQq1WUYPat0UFaUQ+CIxIW6wWVy661xhJ0iQouwpPXuiofqms9qjYsJDmnRGCyLR3w==",
       "type": "package",
       "path": "microsoft.applicationinsights.aspnetcore/2.1.1",
       "files": [
@@ -4802,7 +4802,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.DependencyCollector/2.4.1": {
-      "sha512": "RWxdX90MY6tNF8S5lwRvJcHiBMIWwVLCxd4TGIEl3X0yAKaolY2vs4zTCvyCIVkEAMs1aInTgWkYwOjzYvAHWw==",
+      "sha512": "GU+GTkXSLLGggxPXIov+gapKmzFqcrPDvyscfcYBK86zaHRcIwcCsqnSY3zE0ssDZ2g3aauwBmXxj2oAb1H6hg==",
       "type": "package",
       "path": "microsoft.applicationinsights.dependencycollector/2.4.1",
       "files": [
@@ -4820,7 +4820,7 @@
       ]
     },
     "Microsoft.AspNetCore/2.0.0": {
-      "sha512": "Pp4CNfgJgKTyU+oRQYh6InA1lwcZLi5ZsfTxWwixagbRsVdWrROBFnKGw+FvbbuzKNyMn4Cg5zRv99LjqxVIJA==",
+      "sha512": "4NSPi9dkQmGowBliDEUv2I8PSY40SGibCi4EQKykuTUIBg44uShcWYPv0Fg39YK0Q65/1VOG1rt/JnGvO4zqtw==",
       "type": "package",
       "path": "microsoft.aspnetcore/2.0.0",
       "files": [
@@ -5325,7 +5325,7 @@
       ]
     },
     "Microsoft.AspNetCore.Mvc/2.0.0": {
-      "sha512": "9KmSDGw3XXosv3+c7TX8An91ya+jtzbAuquHVp6t/qB1CA+MZI7r2d6n3dvUZUcKbrpmB8cfbvzbeEGv/QKp3Q==",
+      "sha512": "0TvBpnYcUmGSiadZ/Gc1KgYcq3n6kmCU7LZpFGB7d0dsAeCrBUnf70ZlPKzXYf/bq8aB1VnANwtQLJ3Ac+17xQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.mvc/2.0.0",
       "files": [
@@ -5719,7 +5719,7 @@
       ]
     },
     "Microsoft.AspNetCore.StaticFiles/2.0.0": {
-      "sha512": "HBMJQ1WPdHO0thltwi7agvfis3c1Kd5HFQDgyy0nV3X4mJvhVGUnymT0+QQU+GGNK9FG/uEQNE3YDSrrBamP7w==",
+      "sha512": "1aoOB5G1siNj0ydgfPFWzH40M+rdr7v4nYAOvX9OUNrdP2Ww8n9sBuqdGMRPMggHED+qjcwt7cIBgQv/LITUTg==",
       "type": "package",
       "path": "microsoft.aspnetcore.staticfiles/2.0.0",
       "files": [
@@ -7558,7 +7558,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "l+5bvZbwBkqXJ8gAqpdcmKDpPRZbHUoWmuYPo3LByK0oWknAKaO/sZIbldsbPxAiz9wud607xZe2JP1r+6a4/A==",
+      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -12533,23 +12533,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eugene\\.nuget\\packages\\": {},
+    "C:\\Users\\Harmandev\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\VSO\\ReactDotnet\\ReactApplication2.csproj",
+      "projectUniqueName": "c:\\Users\\Harmandev\\Desktop\\aspnetreact\\iam-react-aspnet\\ReactApplication2.csproj",
       "projectName": "ReactApplication2",
-      "projectPath": "c:\\VSO\\ReactDotnet\\ReactApplication2.csproj",
-      "packagesPath": "C:\\Users\\eugene\\.nuget\\packages\\",
-      "outputPath": "c:\\VSO\\ReactDotnet\\obj\\",
+      "projectPath": "c:\\Users\\Harmandev\\Desktop\\aspnetreact\\iam-react-aspnet\\ReactApplication2.csproj",
+      "packagesPath": "C:\\Users\\Harmandev\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Harmandev\\Desktop\\aspnetreact\\iam-react-aspnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\eugene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Harmandev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
