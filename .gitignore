@@ -234,3 +234,8 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+obj/ReactApplication2.csproj.nuget.g.props
+bin/Debug/netcoreapp2.0/ReactApplication2.runtimeconfig.dev.json
+obj/ReactApplication2.csproj.nuget.g.props
+bin/Debug/netcoreapp2.0/ReactApplication2.deps.json
+bin/Debug/netcoreapp2.0/ReactApplication2.runtimeconfig.dev.json
