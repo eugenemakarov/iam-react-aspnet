@@ -63,3 +63,4 @@ c:\Users\Harmandev\Desktop\aspnetreact\iam-react-aspnet\obj\Debug\netcoreapp2.0\
 c:\Users\Harmandev\Desktop\aspnetreact\iam-react-aspnet\obj\Debug\netcoreapp2.0\ReactApplication2.AssemblyInfo.cs
 c:\Users\Harmandev\Desktop\aspnetreact\iam-react-aspnet\obj\Debug\netcoreapp2.0\ReactApplication2.dll
 c:\Users\Harmandev\Desktop\aspnetreact\iam-react-aspnet\obj\Debug\netcoreapp2.0\ReactApplication2.pdb
+C:\Users\Harmandev\Desktop\aspnetreact\iam-react-aspnet\obj\Debug\netcoreapp2.0\ReactApplication2.csprojResolveAssemblyReference.cache

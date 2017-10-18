@@ -34,16 +34,20 @@ namespace ReactApplication2
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true,
-                    ReactHotModuleReplacement = true
+                    ReactHotModuleReplacement = true,
+                    ConfigFile = "webpack.dev.js"
                 });
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
+                {
+                    HotModuleReplacement = true,
+                    ReactHotModuleReplacement = true,
+                    ConfigFile = "webpack.prod.js"
+                });
             }
-
-            
-
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
