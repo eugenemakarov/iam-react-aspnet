@@ -1,1 +1,1 @@
-export const ApiSettings = {"searchPrefix":"https://iamapi.tryemanage.com/api/","listPrefix":"https://iamapi.tryemanage.com/api/lists/","filesPrefix":"https://iamapi.tryemanage.com/api/files/","suffix":"iam"}
+export const ApiSettings = {"searchPrefix":"http://emanage-dev-iam-api.azurewebsites.net/api/","listPrefix":"http://emanage-dev-iam-api.azurewebsites.net/api/lists/","filesPrefix":"http://emanage-dev-iam-api.azurewebsites.net/api/files/","suffix":"iam-admin-test"}

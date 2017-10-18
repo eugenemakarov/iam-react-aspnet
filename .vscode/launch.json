@@ -31,7 +31,10 @@
                  }
              },
              "env": {
-                 "ASPNETCORE_ENVIRONMENT": "test"
+                 //this is to build webpack environment. Simpler words minified or not minified. Minified=Production, Not Minified=Development
+                 "ASPNETCORE_ENVIRONMENT": "Development",
+                 //this is to build the environment file. Which API should IAM use.
+                 "BUILD_ENV": "development" 
              },
              "sourceFileMap": {
                  "/Views": "${workspaceRoot}/Views"
@@ -63,7 +66,10 @@
                 }
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Production"
+                //this is to build webpack environment. Simpler words minified or not minified. Minified=Production, Not Minified=Development
+                "ASPNETCORE_ENVIRONMENT": "Production",
+                //this is to build the environment file. Which API should IAM use.
+                "BUILD_ENV": "production"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceRoot}/Views"

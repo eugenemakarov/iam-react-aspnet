@@ -8,11 +8,9 @@ const cssnext = require('postcss-cssnext');
 const postcssReporter = require('postcss-reporter');
 const environmentSettings = require("./configuration/env-genrator");
 
+
+
 module.exports = (env) => {
-    process.env.NODE_ENV = process.env.ASPNETCORE_ENVIRONMENT;
-
-    console.log("test@#$^#@$%#@$", process.env.NODE_ENV);
-
     environmentSettings.env_gen;
     // Configuration in common to both client-side and server-side bundles
     const sharedConfig = {
